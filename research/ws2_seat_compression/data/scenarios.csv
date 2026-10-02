@@ -1,0 +1,13 @@
+scenario,annual_emp_growth,emp_2025_base,emp_2026_proj,emp_2027_proj,emp_2028_proj,required_rev_per_worker_growth_for_10pct_ARR,description
+BLS 2024-34 projection CAGR,0.0025,348240.0,349106.0,349975.0,350846.0,0.0973,Employment-weighted (May-2025 OEWS weights) 10-yr change 2.52% -> CAGR
+BLS 2025-35 projection CAGR (Sep-2026 OOH update),-0.0005,348240.0,348081.0,347923.0,347764.0,0.1005,Weighted 10-yr change -0.45% -> CAGR; graphic designers -2%
+Postings-based (Indeed creative YoY x beta),0.0074,348240.0,350812.0,353403.0,356013.0,0.0919,Latest 3-mo creative postings YoY +4.9% x assumed beta 0.15 (empirical 2022-25 beta 0.16)
+Trend: 2019-2025 OEWS CAGR,-0.0084,348240.0,345310.0,342405.0,339524.0,0.1093,Continuation of 2019-25 creative5 CAGR
+Stress: repeat of 2024->2025 drop,-0.0485,348240.0,331342.0,315264.0,299966.0,0.1561,May-2024 to May-2025 creative5 change repeated each year
+Required per-worker growth @ headcount +0%/yr,0.0,348240.0,348240.0,348240.0,348240.0,0.1,needed = 1.10/(1+h)-1 to sustain ~10% ARR growth
+Required per-worker growth @ headcount -3%/yr,-0.03,348240.0,337793.0,327659.0,317829.0,0.134,needed = 1.10/(1+h)-1 to sustain ~10% ARR growth
+Required per-worker growth @ headcount -7%/yr,-0.07,348240.0,323863.0,301193.0,280109.0,0.1828,needed = 1.10/(1+h)-1 to sustain ~10% ARR growth
+ACHIEVED: Digital Media rev per creative worker CAGR FY19-FY25,,,,,,0.1577,global DM revenue / US creative5 OEWS employment
+ACHIEVED: Creative rev per creative worker CAGR FY19-FY24,,,,,,0.1439,Creative revenue (last disclosed FY24) / US creative5
+ACHIEVED: DM rev per creative worker CAGR FY22-FY25,,,,,,0.1463,post-2022 employment peak
+ACHIEVED: DM rev per creative worker FY24->FY25 (1 yr),,,,,,0.169,employment fell 4.9% while DM revenue +11.3%

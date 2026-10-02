@@ -1,0 +1,8 @@
+fiscal_year,total_revenue_usd_bn,digital_media_revenue_usd_bn,creative_revenue_usd_bn,document_cloud_revenue_usd_bn,source_url,notes
+2019,11.17,7.71,6.48,1.22,https://www.sec.gov/Archives/edgar/data/796343/000079634320000013/adbe10kfy19.htm,FY2019 10-K via WebSearch snippet
+2020,12.87,9.23,7.74,1.50,https://www.sec.gov/Archives/edgar/data/796343/000079634320000248/adbeex991q420.htm,Q4 FY2020 8-K Ex.99.1 via WebSearch snippet
+2021,15.79,11.52,9.55,1.97,https://www.sec.gov/Archives/edgar/data/796343/000079634322000032/adbe-20211203.htm,FY2021 10-K via WebSearch snippet
+2022,17.61,12.84,10.46,2.38,https://www.sec.gov/Archives/edgar/data/796343/000079634323000007/adbe-20221202.htm,FY2022 10-K via WebSearch snippet (Digital Media $12842M)
+2023,19.41,14.22,11.52,2.70,https://www.sec.gov/Archives/edgar/data/796343/000079634323000252/adbeex991q423.htm,Q4 FY2023 8-K Ex.99.1 via WebSearch snippet
+2024,21.51,15.86,12.68,3.18,https://www.sec.gov/Archives/edgar/data/796343/000079634324000250/adbeex991q424.htm,Q4 FY2024 8-K Ex.99.1 via WebSearch snippet
+2025,23.77,17.65,,,https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm,"FY2025 10-K / Q4 FY25 release via WebSearch snippet. Creative vs Document Cloud split for FY2025 UNAVAILABLE in snippets (Adobe shifted to customer-group disclosure: Q4 FY25 Creative & Marketing Professionals subscription revenue $4.25B, +11%; Business Professionals & Consumers $1.72B, +15%)."
