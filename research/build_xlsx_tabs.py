@@ -330,9 +330,71 @@ def add_call_nlp(wb, ctx):
             ws.cell(row=r, column=10, value=str(rec["detail"])[:200])
             r += 1
     autosize(ws, maxw=45)
+
+
+# ---------------------------------------------------------------- Triangulation tabs (added in round 2)
+def add_eps_bridge(wb, ctx):
+    read_csv, write_df, hdr, autosize, BLUE, BLACK, BOLD, ROOT = ctx
+    ws = wb.create_sheet("EPS_bridge")
+    ws["A1"] = "ARR -> EPS bridge (blue = input assumption; black = formula). Each contention's EPS translation references the constant in B8."; ws["A1"].font = BOLD
+    note(ws, 2, "Constant: EPS per $100M ARR = 100 x incremental operating margin x (1 - non-GAAP tax rate) / diluted shares. Inputs sourced in Inputs tab / Sources tab.")
+    rows = [("Incremental ARR block (USD M)", 100, "USD M", "convention"),
+            ("Incremental non-GAAP operating margin on new ARR", 0.45, "ratio", "Adobe FY26 target non-GAAP operating margin ~45.0% (Q3 FY26 8-K Ex.99.1, verified 2026-10-02); incremental assumed at run-rate margin; see 35% low case"),
+            ("Non-GAAP tax rate", 0.18, "ratio", "Adobe FY26 target non-GAAP tax rate ~18.0% (Q3 FY26 8-K Ex.99.1, verified 2026-10-02)"),
+            ("Diluted shares (M)", 389, "M", "Q4 FY26 target diluted share count ~389M (Q3 FY26 8-K Ex.99.1, verified 2026-10-02); FY26 full-year ~400M"),
+            ("Low-case incremental margin", 0.35, "ratio", "sensitivity")]
+    hdr(ws, 4, ["Input", "Value", "Unit", "Source / note"])
+    r = 5
+    for lab, v, u, s in rows:
+        ws.cell(row=r, column=1, value=lab); c = ws.cell(row=r, column=2, value=v); c.font = BLUE
+        ws.cell(row=r, column=3, value=u); ws.cell(row=r, column=4, value=s); r += 1
+    # r is now 10
+    ws.cell(row=r, column=1, value="EPS per $100M ARR (base)").font = BOLD
+    ws.cell(row=r, column=2, value="=B5*B6*(1-B7)/B8").number_format = "0.000"; base_row = r; r += 1
+    ws.cell(row=r, column=1, value="EPS per $100M ARR (low-case margin)").font = BOLD
+    ws.cell(row=r, column=2, value="=B5*B9*(1-B7)/B8").number_format = "0.000"; low_row = r; r += 2
+    ws.cell(row=r, column=1, value="Contention / concession EPS translations (ARR inputs in blue from research/tri/eps_translations.csv; EPS = ARR/100 x constant)").font = BOLD; r += 1
+    df = read_csv("tri/eps_translations.csv")
+    hdr(ws, r, ["id","item","scenario","arr_delta_musd","eps_base (f)","eps_low_margin (f)","as_%_of_FY27_consensus_EPS (f)","source_ref","note"]); r += 1
+    ws.cell(row=r, column=1, value="FY27 consensus EPS (FactSet via prior research; VERIFY)"); ws.cell(row=r, column=4, value=27.5).font = BLUE; cons_row = r; r += 1
+    if df is not None:
+        for _, rec in df.iterrows():
+            ws.cell(row=r, column=1, value=rec.get("id")); ws.cell(row=r, column=2, value=rec.get("item")); ws.cell(row=r, column=3, value=rec.get("scenario"))
+            ws.cell(row=r, column=4, value=_num(rec.get("arr_delta_musd"))).font = BLUE
+            ws.cell(row=r, column=5, value=f"=D{r}/100*$B${base_row}").number_format = "0.00"
+            ws.cell(row=r, column=6, value=f"=D{r}/100*$B${low_row}").number_format = "0.00"
+            ws.cell(row=r, column=7, value=f"=E{r}/$D${cons_row}").number_format = "0.0%"
+            ws.cell(row=r, column=8, value=rec.get("source_ref")); ws.cell(row=r, column=9, value=rec.get("note"))
+            r += 1
+    else:
+        note(ws, r, "PENDING: research/tri/eps_translations.csv not yet written")
+    autosize(ws, maxw=60)
+
+def add_triangulation(wb, ctx):
+    read_csv, write_df, hdr, autosize, BLUE, BLACK, BOLD, ROOT = ctx
+    ws = wb.create_sheet("Triangulation")
+    ws["A1"] = "Triangulation matrix: rows = contentions C1-C4 + concessions; columns = source types. Cell = mark + one-line finding + source number (see research/tri/sources_numbered.md)."; ws["A1"].font = BOLD
+    df = read_csv("tri/triangulation_matrix.csv")
+    if df is None:
+        note(ws, 3, "PENDING: research/tri/triangulation_matrix.csv not yet written"); return
+    hdr(ws, 3, list(df.columns))
+    r = 4
+    for _, rec in df.iterrows():
+        for j, col in enumerate(df.columns):
+            v = rec[col]
+            c = ws.cell(row=r, column=1 + j, value=None if (isinstance(v, float) and pd.isna(v)) else v)
+            from openpyxl.styles import Alignment
+            c.alignment = Alignment(wrap_text=True, vertical="top")
+        r += 1
+    for col in "BCDEF":
+        ws.column_dimensions[col].width = 48
+    ws.column_dimensions["A"].width = 22
+    ws.column_dimensions["G"].width = 30
+
+
 def add_tabs(wb, name_row, read_csv, write_df, hdr, autosize, BLUE, BLACK, BOLD, ROOT):
     ctx = (read_csv, write_df, hdr, autosize, BLUE, BLACK, BOLD, ROOT)
-    for fn in (add_price_volume, add_seat_compression, add_task_exposure, add_call_nlp, add_trends_competitors, add_sources):
+    for fn in (add_price_volume, add_seat_compression, add_task_exposure, add_call_nlp, add_trends_competitors, add_triangulation, add_eps_bridge, add_sources):
         try:
             fn(wb, ctx)
         except Exception as e:

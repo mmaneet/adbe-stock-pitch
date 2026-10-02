@@ -98,6 +98,14 @@ INPUTS = [
     ("CC All Apps -> CC Pro NA monthly price, old", 59.99, "USD/mo", "Adobe help: Creative Cloud Pro pricing update (effective 2025-06-17)", "https://helpx.adobe.com/creative-cloud/kb/creative-cloud-pro-plan-pricing-update.html"),
     ("CC All Apps -> CC Pro NA monthly price, new", 69.99, "USD/mo", "Adobe help: Creative Cloud Pro pricing update (effective 2025-06-17)", "https://helpx.adobe.com/creative-cloud/kb/creative-cloud-pro-plan-pricing-update.html"),
     ("Last disclosed CC subscribers (FY2018)", 17, "M", "Adobe FY2018 disclosure", "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000796343&type=10-K"),
+    ("Q3 FY26 RPO", 22160, "USD M", "Adobe Q3 FY26 press release (8-K Ex.99.1), verified from sec.gov 2026-10-02", "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"),
+    ("Q3 FY26 cRPO share of RPO", 0.67, "ratio", "Adobe Q3 FY26 press release, verified from sec.gov 2026-10-02", "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"),
+    ("Q3 FY26 non-GAAP operating income", 2970, "USD M", "Adobe Q3 FY26 press release, verified from sec.gov 2026-10-02", "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"),
+    ("Q3 FY26 operating cash flow", 2520, "USD M", "Adobe Q3 FY26 press release, verified from sec.gov 2026-10-02", "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"),
+    ("FY26 target non-GAAP operating margin", 0.45, "ratio", "Adobe Q3 FY26 press release FY2026 targets footnote, verified 2026-10-02", "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"),
+    ("FY26 target non-GAAP tax rate", 0.18, "ratio", "Adobe Q3 FY26 press release FY2026 targets footnote, verified 2026-10-02", "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"),
+    ("Q4 FY26 target diluted share count", 389, "M", "Adobe Q3 FY26 press release Q4 targets footnote, verified 2026-10-02", "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"),
+    ("Q3 FY26 shares repurchased", 9.5, "M", "Adobe Q3 FY26 press release, verified 2026-10-02", "https://www.sec.gov/Archives/edgar/data/796343/000079634326000147/adbeex991q326.htm"),
 ]
 
 def build():
@@ -136,6 +144,8 @@ def build():
         ("Implied Q4 FY26 C&MP revenue (guide mid - 9M)", f"=AVERAGE({ref('FY26 C&MP guidance low')},{ref('FY26 C&MP guidance high')})-{ref('9M FY26 C&MP subscription revenue')}"),
         ("Implied FY26 ending ARR (USD M)", f"={ref('Beginning FY26 ARR book')}*(1+{ref('FY26 ending ARR growth guidance')})"),
         ("AI-first ARR as % of Q3 ending ARR", f"={ref('AI-first ARR (Q3 FY26, >$650M)')}/{ref('Q3 FY26 ending ARR')}"),
+        ("Q3 FY26 non-GAAP operating margin", f"={ref('Q3 FY26 non-GAAP operating income')}/{ref('Q3 FY26 total revenue')}"),
+        ("Q3 FY26 cRPO (USD M)", f"={ref('Q3 FY26 RPO')}*{ref('Q3 FY26 cRPO share of RPO')}"),
     ]
     drow = {}
     for label, f in derived:
