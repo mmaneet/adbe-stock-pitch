@@ -28,3 +28,4 @@
 | tri/c1_mix | Figma Q2 2026 shareholder letter (any revenue-by-plan or enterprise mix) | https://investor.figma.com | site 403; 10-Q used instead (no plan-mix disclosure) |
 | tri/c1_mix | Adobe Investor Meeting Mar 12 2025 deck, native version with numbers for route-to-market donuts (p.20/92/95) | https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/21305202/atrg43rwge.pdf | image-only PDF; donut shares were pixel-measured (+/-5-10 pts). Also check any sell-side note quoting Adobe's individual vs teams Creative Cloud ARR split (not public) |
 | tri/c1_mix | Ramp vendor-level Adobe spend/adoption | https://ramp.com/vendors/adobe | 404 on all Adobe slugs; request from Ramp Economics Lab if needed |
+| R1 resolution | needs_manual_resolution_R1.md | (see file) | 2026-10-02: items 1,3,4 resolved from primary Adobe PDFs/helpx; 2,5,6,8 confirmed not publicly available; 7 done; remaining manual items listed at bottom of that file |
