@@ -1,0 +1,14 @@
+call,date,n_questions,n_fear_strict,n_fear_broad,fear_index_strict,fear_index_broad,n_ai_disruption,n_seats_pricing,n_ai_monetization,n_dx,n_margins,n_leadership,n_macro_other,coverage,confidence
+FY23_Q1,2023-03-15,10,4,6,0.4,0.6,3,1,0,2,0,0,4,full transcript,medium
+FY23_Q2,2023-06-15,10,1,1,0.1,0.1,0,1,4,2,1,1,1,full transcript,medium
+FY23_Q3,2023-09-14,11,3,3,0.273,0.273,0,3,6,0,1,0,1,full transcript,medium
+FY23_Q4,2023-12-13,10,6,6,0.6,0.6,1,5,2,0,0,0,2,full transcript,medium
+FY24_Q1,2024-03-14,10,6,6,0.6,0.6,2,4,2,0,0,0,2,full transcript,medium
+FY24_Q2,2024-06-13,13,2,2,0.154,0.154,0,2,3,2,0,0,6,full transcript,medium
+FY24_Q3,2024-09-12,8,4,5,0.5,0.625,0,4,1,0,1,0,2,full transcript,medium
+FY24_Q4,2024-12-11,10,8,9,0.8,0.9,0,8,1,0,0,0,1,full transcript,medium
+FY25_Q1,2025-03-12,13,1,3,0.077,0.231,0,1,5,1,2,0,4,full transcript,medium
+FY25_Q3,2025-09-11,10,4,5,0.4,0.5,1,3,4,1,1,0,0,full transcript,medium
+FY25_Q4,2025-12-10,8,4,4,0.5,0.5,1,3,2,2,0,0,0,full transcript,medium
+FY26_Q1,2026-03-12,10,3,4,0.3,0.4,1,2,3,0,1,2,1,full transcript,medium
+FY26_Q2,2026-06-11,8,6,6,0.75,0.75,2,4,1,1,0,0,0,full transcript,medium
