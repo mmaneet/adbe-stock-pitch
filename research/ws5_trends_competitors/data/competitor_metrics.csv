@@ -1,0 +1,81 @@
+company,metric,period,value,unit,yoy_growth,source_url,notes
+Figma,revenue,FY2023,504.0,USD millions,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1 (July 2025); retrieved via WebSearch snippet; page not fetchable from this environment
+Figma,revenue,FY2024,749.0,USD millions,48%,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1; retrieved via WebSearch snippet
+Figma,revenue,Q1 2024,156.2,USD millions,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1; retrieved via WebSearch snippet
+Figma,revenue,Q2 2024,177.0,USD millions,,https://www.sec.gov/Archives/edgar/data/1579878/000157987825000026/q225pressrelease.htm,DERIVED = Q2 2025 249.6 / 1.41; not directly quoted
+Figma,revenue,Q3 2024,198.7,USD millions,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025049555/q325pressrelease.htm,DERIVED = Q3 2025 274.2 / 1.38; not directly quoted
+Figma,revenue,Q4 2024,217.0,USD millions,,https://www.sec.gov/Archives/edgar/data/1579878/000162828026009024/fy25pressrelease.htm,DERIVED = Q4 2025 303.8 / 1.40; not directly quoted
+Figma,revenue,Q1 2025,228.2,USD millions,46%,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1; retrieved via WebSearch snippet
+Figma,revenue,Q2 2025,249.6,USD millions,41%,https://www.sec.gov/Archives/edgar/data/1579878/000157987825000026/q225pressrelease.htm,8-K press release 2025-09-03 (first quarter as public company); retrieved via WebSearch snippet
+Figma,revenue,Q3 2025,274.2,USD millions,38%,https://www.sec.gov/Archives/edgar/data/1579878/000162828025049555/q325pressrelease.htm,8-K press release 2025-11-05; retrieved via WebSearch snippet
+Figma,revenue,Q4 2025,303.8,USD millions,40%,https://www.sec.gov/Archives/edgar/data/1579878/000162828026009024/fy25pressrelease.htm,8-K press release 2026-02-18; retrieved via WebSearch snippet
+Figma,revenue,FY2025,1056.0,USD millions,41%,https://www.sec.gov/Archives/edgar/data/1579878/000162828026009024/fy25pressrelease.htm,8-K press release 2026-02-18; retrieved via WebSearch snippet
+Figma,revenue,Q1 2026,333.4,USD millions,46%,https://www.sec.gov/Archives/edgar/data/0001579878/000162828026035087/q126pressrelease.htm,8-K press release 2026-05-14; retrieved via WebSearch snippet
+Figma,revenue,Q2 2026,370.1,USD millions,48%,https://www.sec.gov/Archives/edgar/data/0001579878/000162828026053331/q226pressrelease.htm,8-K press release 2026-08-05; third straight quarter of accelerating growth; retrieved via WebSearch snippet
+Figma,revenue guidance FY2026 (initial),FY2026,1366-1374,USD millions,~30% implied,https://www.sec.gov/Archives/edgar/data/1579878/000162828026009024/fy25pressrelease.htm,Given 2026-02-18
+Figma,revenue guidance FY2026 (after Q1),FY2026,1422-1428,USD millions,35% implied at midpoint,https://www.sec.gov/Archives/edgar/data/0001579878/000162828026035087/q126pressrelease.htm,Raised $55M on 2026-05-14
+Figma,revenue guidance FY2026 (after Q2),FY2026,1463-1467,USD millions,~39% implied at midpoint,https://www.sec.gov/Archives/edgar/data/0001579878/000162828026053331/q226pressrelease.htm,Raised $40M on 2026-08-05; midpoint 1465 vs FY2025 1056 = +38.7% (own calc)
+Figma,net dollar retention,as of 2024-03-31,125,%,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1; NDR defined on customers with >=$10k ARR
+Figma,net dollar retention,as of 2025-03-31,132,%,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1
+Figma,net dollar retention,as of 2025-06-30,129,%,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025049555/q325pressrelease.htm,DERIVED: Q3 2025 release says 131% was up 2 pts QoQ
+Figma,net dollar retention,as of 2025-09-30,131,%,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025049555/q325pressrelease.htm,8-K press release
+Figma,net dollar retention,as of 2025-12-31,136,%,,https://www.sec.gov/Archives/edgar/data/1579878/000162828026009024/fy25pressrelease.htm,8-K press release
+Figma,net dollar retention,as of 2026-03-31,139,%,,https://www.sec.gov/Archives/edgar/data/0001579878/000162828026035087/q126pressrelease.htm,Highest in over two years per release
+Figma,net dollar retention,as of 2026-06-30,136,%,,https://www.sec.gov/Archives/edgar/data/0001579878/000162828026053331/q226pressrelease.htm,8-K press release; down 3 pts QoQ
+Figma,paid customers >$10k ARR,as of 2023-03-31,5945,count,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1
+Figma,paid customers >$10k ARR,as of 2024-03-31,8007,count,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1
+Figma,paid customers >$10k ARR,as of 2025-03-31,11107,count,39%,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1
+Figma,paid customers >$10k ARR,as of 2025-12-31,13861,count,,https://www.sec.gov/Archives/edgar/data/1579878/000162828026009024/fy25pressrelease.htm,8-K press release
+Figma,paid customers >$10k ARR,as of 2026-03-31,15218,count,37%,https://www.sec.gov/Archives/edgar/data/0001579878/000162828026035087/q126pressrelease.htm,8-K press release
+Figma,paid customers >$10k ARR,as of 2026-06-30,15964,count,34%,https://www.sec.gov/Archives/edgar/data/0001579878/000162828026053331/q226pressrelease.htm,8-K press release
+Figma,paid customers >$100k ARR,as of 2023-03-31,456,count,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1
+Figma,paid customers >$100k ARR,as of 2025-03-31,1031,count,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025033742/figma-sx1.htm,S-1
+Figma,paid customers >$100k ARR,as of 2025-06-30,>1100,count,,https://www.sec.gov/Archives/edgar/data/1579878/000157987825000026/q225pressrelease.htm,"""more than 1,100"" per release; exact count not in snippet"
+Figma,paid customers >$100k ARR,as of 2025-09-30,1262,count,,https://www.sec.gov/Archives/edgar/data/1579878/000162828025049555/q325pressrelease.htm,8-K press release; +140 QoQ
+Figma,paid customers >$100k ARR,as of 2025-12-31,1405,count,,https://www.sec.gov/Archives/edgar/data/1579878/000162828026009024/fy25pressrelease.htm,8-K press release
+Figma,paid customers >$100k ARR,as of 2026-03-31,1525,count,48%,https://www.sec.gov/Archives/edgar/data/0001579878/000162828026035087/q126pressrelease.htm,8-K press release
+Figma,paid customers >$100k ARR,as of 2026-06-30,1635,count,46%,https://www.sec.gov/Archives/edgar/data/0001579878/000162828026053331/q226pressrelease.htm,8-K press release
+Canva,ARR,end-2023,1700,USD millions,,https://sacra-pdfs.s3.us-east-2.amazonaws.com/canva-at-2-55b-arr.pdf,ESTIMATE third-party (Sacra); company is private
+Canva,ARR,Jul 2024,2400,USD millions,,https://multiples.vc/private-comps/canva,Company-cited figure per press roundup; secondary source
+Canva,ARR,Sep 2024 (Canva Extend),2300,USD millions,,https://aragonresearch.com/canva-extend-2024/,Company stated ">$2.3B ARR" at Canva Extend Sept 2024; secondary source
+Canva,ARR,Sep 2024,2550,USD millions,,https://sacra-pdfs.s3.us-east-2.amazonaws.com/canva-at-2-55b-arr.pdf,ESTIMATE third-party (Sacra report updated 2024-12-11)
+Canva,ARR,end-2024,2800,USD millions,,https://sacra.com/research/canva-at-4b-arr-growing-43-yoy/,ESTIMATE third-party (Sacra implied base for +43% to $4B); conflicts with company's ~$2.5B late-2024 statements
+Canva,ARR,Apr-Jun 2025,3000,USD millions,,https://www.canva.com/newsroom/news/cnbc-disruptor-50-2025/,Company newsroom ("ARR surpassing $3 billion"; 230M MAU); page blocked here; retrieved via WebSearch snippet
+Canva,ARR (annualized sales),Aug 2025,3300,USD millions,,https://fortune.com/2025/08/22/canva-billionaire-founders-minting-overnight-millionaires-employee-share-sale,Company-disclosed at $42B secondary sale; 240M MAU; secondary source
+Canva,ARR,end-2025,4000,USD millions,43% (Sacra),https://musically.com/2026/02/19/canva-now-has-265m-monthly-active-users-and-31m-are-paying/,Company figures given to Inc. Feb 2026; includes ~$500M from business customers >25 seats; 43% YoY is Sacra's calc
+Canva,revenue,CY2025,3500,USD millions,,https://en.wikipedia.org/wiki/Canva,Secondary source; "up from annualized $2.5B reported the previous year"; basis (revenue vs ARR) unclear
+Canva,revenue,Q2 2026,921.9,USD millions,25.2%,https://aiweekly.co/alerts/canva-cuts-revenue-growth-forecast-on-ai-cost-blowout,Reported from Canva Q2 2026 investor update (first reported by The Information, Aug 2026); missed internal guidance
+Canva,revenue growth forecast CY2026,CY2026,~20% (cut from 30%),%,,https://aiweekly.co/alerts/canva-cuts-revenue-growth-forecast-on-ai-cost-blowout,Aug 2026; cut attributed to AI serving costs (frontier-model reliance); AI features delayed up to 6 months
+Canva,monthly active users,Sep 2023,16000000 paid,count,,https://backlinko.com/canva-users,Paid users (not MAU); secondary roundup
+Canva,paid users,Sep 2024,21000000,count,31%,https://backlinko.com/canva-users,Secondary roundup
+Canva,monthly active users,Dec 2024,220000000,count,,https://backlinko.com/canva-users,Company update Dec 2024; secondary roundup
+Canva,monthly active users,Apr-Jun 2025,230000000,count,,https://www.canva.com/newsroom/news/cnbc-disruptor-50-2025/,Company newsroom; retrieved via WebSearch snippet
+Canva,monthly active users,Aug 2025,240000000,count,,https://fortune.com/2025/08/22/canva-billionaire-founders-minting-overnight-millionaires-employee-share-sale,Secondary source
+Canva,monthly active users,end-2025,265000000,count,,https://musically.com/2026/02/19/canva-now-has-265m-monthly-active-users-and-31m-are-paying/,Company figures via Inc. Feb 2026
+Canva,paid users,end-2025,31200000,count,,https://musically.com/2026/02/19/canva-now-has-265m-monthly-active-users-and-31m-are-paying/,Company figures via Inc. Feb 2026; implies ~$128 ARR per paid user ($4.0B/31.2M)
+Canva,valuation,Aug 2025,42000,USD millions,,https://fortune.com/2025/08/22/canva-billionaire-founders-minting-overnight-millionaires-employee-share-sale,Employee secondary sale; up from $32B Oct 2024
+Midjourney,revenue,CY2023,200,USD millions,,https://sacra.com/c/midjourney/,ESTIMATE third-party (Sacra/GetLatka); company is private and discloses nothing
+Midjourney,revenue,CY2024,300,USD millions,50% (est.),https://sacra.com/c/midjourney/,ESTIMATE third-party
+Midjourney,revenue,CY2025,500,USD millions,67% (est.),https://sacra.com/c/midjourney/,ESTIMATE third-party; subscription-only; no marketing spend
+Adobe,Digital Media segment revenue,FY2023,14216,USD millions,,https://www.sec.gov/Archives/edgar/data/796343/000079634323000252/adbeex991q423.htm,8-K press release 2023-12-13; retrieved via WebSearch snippet
+Adobe,Creative revenue,FY2023,11520,USD millions,10%,https://www.sec.gov/Archives/edgar/data/796343/000079634323000252/adbeex991q423.htm,8-K press release 2023-12-13
+Adobe,Document Cloud revenue,FY2023,2700,USD millions,13%,https://www.sec.gov/Archives/edgar/data/796343/000079634323000252/adbeex991q423.htm,8-K press release 2023-12-13
+Adobe,Digital Media segment revenue,FY2024,15860,USD millions,12%,https://www.sec.gov/Archives/edgar/data/796343/000079634324000250/adbeex991q424.htm,8-K press release 2024-12-11; net new DM ARR $2.00B in FY24
+Adobe,Creative revenue,FY2024,12680,USD millions,10% (derived),https://www.sec.gov/Archives/edgar/data/796343/000079634324000250/adbeex991q424.htm,DERIVED = DM 15860 - DC 3180; Q4 FY24 Creative was $3.30B +10%
+Adobe,Document Cloud revenue,FY2024,3180,USD millions,18%,https://www.sec.gov/Archives/edgar/data/796343/000079634324000250/adbeex991q424.htm,8-K press release 2024-12-11
+Adobe,Digital Media segment revenue,FY2025,17650,USD millions,11%,https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm,8-K press release 2025-12-10; Q4 FY25 DM $4.62B +11%; DM ARR $19.20B +11.5%
+Adobe,Creative revenue,FY2025,,USD millions,,https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm,UNAVAILABLE: Adobe moved to customer-group reporting (C&MP / BP&C) in FY25 and the Creative/Document Cloud split was not surfaced by search
+Adobe,total revenue,FY2023,19410,USD millions,,https://www.sec.gov/Archives/edgar/data/796343/000079634323000252/adbeex991q423.htm,8-K press release 2023-12-13
+Adobe,total revenue,FY2024,21510,USD millions,11%,https://www.sec.gov/Archives/edgar/data/796343/000079634324000250/adbeex991q424.htm,8-K press release 2024-12-11
+Adobe,total revenue,FY2025,23770,USD millions,11%,https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm,8-K press release 2025-12-10
+Adobe,total revenue guidance FY2026,FY2026,25900-26100,USD millions,~9.4% implied,https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm,Given 2025-12-10; total ARR book growth target 10.2%
+Adobe,C&MP subscription revenue,Q4 FY2025,4250,USD millions,11%,https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm,8-K press release 2025-12-10; retrieved via WebSearch snippet
+Adobe,BP&C subscription revenue,Q4 FY2025,1700,USD millions,15%,https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm,8-K press release 2025-12-10; retrieved via WebSearch snippet
+Adobe,C&MP subscription revenue,Q3 FY2026,4651,USD millions,13% (12% cc),https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000156/adbe-20260828.htm,orchestrator starting facts (10-Q Q3 FY26); verified by WebSearch ($4.65B +12%)
+Adobe,BP&C subscription revenue,Q3 FY2026,1905,USD millions,16% (15% cc),https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000156/adbe-20260828.htm,orchestrator starting facts (10-Q Q3 FY26); verified by WebSearch ($1.91B +15%)
+Adobe,total revenue,Q3 FY2026,6760,USD millions,12.9%,https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000156/adbe-20260828.htm,orchestrator starting facts (10-Q Q3 FY26)
+Adobe,total ending ARR,Q3 FY2026,27500,USD millions,11.2%,https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000156/adbe-20260828.htm,orchestrator starting facts; FY26 ARR definition includes Experience Cloud subscription and Semrush (not comparable to FY25 Digital Media ARR $19.20B)
+Adobe,C&MP subscription revenue guidance FY2026,FY2026,18242-18272,USD millions,,https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000156/adbe-20260828.htm,orchestrator starting facts
+Adobe,BP&C subscription revenue guidance FY2026,FY2026,7470-7490,USD millions,,https://www.sec.gov/Archives/edgar/data/0000796343/000079634326000156/adbe-20260828.htm,orchestrator starting facts
+Adobe,TAM (company-cited),2024,205000,USD millions,,https://www.businesswire.com/news/home/20240304544440/en,ESTIMATE company-cited at Investor Meeting Adobe Summit 2024-03-26; figure per Futurum / secondary coverage
+Adobe,TAM (company-cited),2027,293000,USD millions,13% CAGR 2024-27,https://futurumgroup.com/insights/adobe-summit-2024,ESTIMATE company-cited; Creative Cloud $91B (13% CAGR); Document Cloud $47B; Experience Cloud $155B (12% CAGR); FY23 revenue ~7% of TAM
