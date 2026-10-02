@@ -1,0 +1,21 @@
+quarter,call_month,net_new_arr_musd,basis,source
+FY23Q1,2023-03,410,DM,Q1 FY23 call
+FY23Q2,2023-06,470,DM,Q2 FY23 call
+FY23Q3,2023-09,464,DM,Q3 FY23 call
+FY23Q4,2023-12,569,DM,Q4 FY23 call
+FY24Q1,2024-03,432,DM,Q1 FY24 call
+FY24Q2,2024-06,487,DM,Q2 FY24 call
+FY24Q3,2024-09,504,DM,Q3 FY24 call
+FY24Q4,2024-12,578,DM,Q4 FY24 call
+FY25Q1,2025-03,410,DM (derived from ending ARR),ws1 revenue_quarterly / concessions
+FY25Q2,2025-06,460,DM (derived),same
+FY25Q3,2025-09,500,DM (derived),same
+FY25Q4,2025-12,610,DM (derived),same
+FY25Q1,2025-03,470,Total Adobe (Dec-25 rates; Q1 est.),IR data sheet 9/10/26
+FY25Q2,2025-06,580,Total Adobe,same
+FY25Q3,2025-09,660,Total Adobe,same
+FY25Q4,2025-12,920,Total Adobe,same
+FY26Q1,2026-03,400,Total Adobe,same
+FY26Q2,2026-06,560,Total Adobe (ex-Semrush $480M),same
+FY26Q3,2026-09,400,Total Adobe,same
+FY26Q4E,2026-12,780,Total Adobe (implied by 10.2% target),Q3 FY26 8-K targets

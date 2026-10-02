@@ -1,0 +1,8 @@
+entity,metric,prior_period,prior_growth_pct,latest_period,latest_growth_pct,source,verified
+Figma,revenue,FY2025,41.0,Q2 2026,48.3,"SEC 10-Q/8-K (ws5, tri/c1)",Y
+Canva,ARR (est.) / revenue,CY2025 ARR +43% (est.),43.0,Q2 2026 revenue; 2026 guide 20%,25.2,press-verified (tri/c3 canva_q2_2026_verification),Y (press)
+Adobe BP&C (Acrobat/Express),subscription revenue,Q4 FY25,15.0,Q3 FY26,15.6,8-K Ex.99.1 (ws1 revenue_quarterly),Y
+Adobe C&MP (Creative + DX),subscription revenue,Q4 FY25,11.0,Q3 FY26 (incl. ~2.9 pts Semrush),13.0,8-K Ex.99.1 (ws1),Y
+"Adobe C&MP organic cc (ex-Semrush, ex-FX)",subscription revenue,Q4 FY25,10.0,Q3 FY26,9.1,ws1 decomposition (Semrush ESTIMATE $120M),derived
+Upwork,GSV,Q1 2026 (AI-related GSV +40%),,Q2 2026 (AI-related GSV +22%),-4.0,SEC press release (tri/concessions),Y
+Fiverr,revenue,FY2025,,Q2 2026; FY26 guide -14% to -17%,-10.0,SEC 8-K Ex.99.1 (tri/concessions),Y
