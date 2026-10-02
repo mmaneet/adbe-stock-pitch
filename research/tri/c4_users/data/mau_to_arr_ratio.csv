@@ -1,0 +1,28 @@
+# Section 1: inputs (company lower bounds / implied values; see basis)
+quarter,call_date,creative_freemium_mau_m,ai_first_arr_musd,basis
+FY25Q1,2025-03-12,53,125.0,"MAU IMPLIED = 80/1.5 (Q1 FY26 '80M, +50% YoY'); ARR disclosed >$125M (Q1 FY25 PR)"
+FY25Q2,2025-06-12,50,,"MAU disclosed retrospectively ('from 50 million to 90 million YoY', Q2 FY26 call); ARR level not disclosed"
+FY25Q3,2025-09-11,59,250.0,"MAU IMPLIED = 100/1.7 (Q3 FY26 '100M, +70% YoY'); ARR disclosed >$250M (Q3 FY25 PR)"
+FY25Q4,2025-12-10,70,,MAU disclosed >70M; ARR level not disclosed in Q4 FY25 PR/transcript
+FY26Q1,2026-03-12,80,375.0,"MAU disclosed >80M; ARR IMPLIED = 3 x >125 ('more than tripled YoY', Q1 FY26 PR)"
+FY26Q2,2026-06-11,90,500.0,MAU disclosed >90M; ARR disclosed >$500M (Q2 FY26 PR)
+FY26Q3,2026-09-10,100,650.0,MAU disclosed >100M; ARR disclosed >$650M (Q3 FY26 call)
+
+# Section 2: descriptive ratio by period (NOT causal)
+label,period,mau_start_m,mau_end_m,delta_mau_m,arr_start_musd,arr_end_musd,delta_arr_musd,arr_per_incremental_mau_usd,note
+"DESCRIPTIVE RATIO, NOT CAUSAL",FY25Q3->FY26Q3,59,100,41,250.0,650.0,400.0,9.76,YoY; both ARR ends disclosed; Q3 FY25 MAU implied from Q3 FY26 +70% YoY
+"DESCRIPTIVE RATIO, NOT CAUSAL",FY25Q1->FY26Q1,53,80,27,125.0,375.0,250.0,9.26,"YoY; Q1 FY25 MAU implied, Q1 FY26 ARR implied"
+"DESCRIPTIVE RATIO, NOT CAUSAL",FY26Q1->FY26Q2,80,90,10,375.0,500.0,125.0,12.5,QoQ
+"DESCRIPTIVE RATIO, NOT CAUSAL",FY26Q2->FY26Q3,90,100,10,500.0,650.0,150.0,15.0,QoQ
+"DESCRIPTIVE RATIO, NOT CAUSAL","FY25(Q2 MAU base, Q3 ARR base)->FY26Q3 [headline]",50,100,50,250.0,650.0,400.0,8.0,brief's headline ratio: (650-250)/(100-50) = $8.0 of AI-first ARR per incremental freemium MAU
+
+# Section 3: EPS bridge. $100M ARR x 45% incr. op margin x (1-18% non-GAAP tax) / 390M diluted shares = $0.0946 EPS per $100M ARR
+label,freemium_mau_target_m,assumed_arr_per_mau_usd,incremental_ai_first_arr_musd,implied_ai_first_arr_musd,incremental_eps_usd
+SCENARIO (if ratio holds; not a forecast),120,8.0,160.0,810.0,0.151
+SCENARIO (if ratio holds; not a forecast),120,5.0,100.0,750.0,0.095
+SCENARIO (if ratio holds; not a forecast),150,8.0,400.0,1050.0,0.378
+SCENARIO (if ratio holds; not a forecast),150,5.0,250.0,900.0,0.237
+SCENARIO (if ratio holds; not a forecast),200,8.0,800.0,1450.0,0.757
+SCENARIO (if ratio holds; not a forecast),200,5.0,500.0,1150.0,0.473
+SCENARIO (if ratio holds; not a forecast),250,8.0,1200.0,1850.0,1.135
+SCENARIO (if ratio holds; not a forecast),250,5.0,750.0,1400.0,0.71
