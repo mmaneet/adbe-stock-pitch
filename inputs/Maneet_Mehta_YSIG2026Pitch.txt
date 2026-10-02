@@ -1,0 +1,225 @@
+Lennox International Inc. (NYSE: LII)                                              Market Cap: $12.65B
+Share price: $366 (as of 9/11/26)                                           52-wk Range: $365.70 – 689
+Recommendation: SHORT (6-12 months)
+Background
+Lennox International Inc (NYSE: LII) is a North American provider of HVAC (Heating, Ventilation, and Air
+Conditioning) and refrigeration solutions. It operates through two segments: Home Comfort Solutions
+(HCS) (~70% of revenue share), which sells furnaces, AC, and heat pumps for residential use, and
+Building Climate Solutions (BCS) (~30%) which sells light commercial units and refrigeration. The Lennox
+brand sits at the premium end of the price ladder. Lennox also owns several value brands (Armstrong Air,
+Ducane, AirEase, Concord) and in June 2026 paid ~$200M for more (Comfort-Aire, Century, Coast Air).
+
+North American residential HVAC is a roughly $20–25B, 8–9-million-unit market1 in which ~75% of
+demand is replacement of an installed base of ~100 million systems with a 15–20 yr lifespan, and ~25%
+is new construction. The trigger for most purchases is equipment failure. Six manufacturers hold most of
+the market across premium (Lennox, Carrier, Trane), mid (Rheem, York), and value (Daikin's Goodman,
+Lennox, Carrier, and Trane's value subsidiaries) tiers, and nearly all of them sell through independent
+distributors (Watsco is the largest) to contractors, a "two-step" model. Lennox is the exception; its flagship
+brand, roughly 80% of residential volume,2 is sold "one-step" through ~250 company-owned stores
+directly to contractors. Its value brands go two-step through distributors where Lennox is a minor line.
+EPS has primarily grown through price increases and buybacks. From 2008 to 2025 revenue grew ~2% a
+year while EPS grew ~15%, the difference being operating margin expanding from ~8% to ~20% and the
+share count falling from 58M to 35M. Margin came from a series of regulatory catalysts (an efficiency
+mandate in 2023 and a refrigerant change in 2025) and industry-wide simultaneous price increases that
+pushed residential price/mix growth to ~7% a year over 2021–25. Residential volume fell 17% in 2025 as
+the channel worked off a pre-buy of old-refrigerant equipment (industry shipments −20%, the lowest since
+2016), and is down a further ~10% in 2026. 2026 is the first year in which none of the prior tailwinds are
+present: units are down double digits,3 a tax credit that subsidized premium systems expired in December
+2025, tariffs are in the cost base, and management has cut full-year guidance twice, to $23–24 of EPS,
+while pushing the residential recovery from the second half of 2026 to 2027. Buybacks have slowed as
+M&A absorbs cash.
+
+The stock has fallen 35% year to date to $366. P/E on current-year estimates has compressed from ~19x
+in January to ~15.5x today, while the 2026 estimate itself fell only 9%. Two guidance revisions each took
+~20% off the price on a ~4% change to earnings. Consensus, however, still models an early 2027
+recovery with projected 2027 EPS at $26.12 (+11%) on revenue of $5.93B (+7%), with residential
+segment margin held at 20.4–20.6% and residential revenue up 4–6%;4 the mean price target is $514, at
+a multiple of ~19x. Lennox's commercial channel (BCS) is projected to grow 6-10%, while management's
+guidance dates the residential (HCS) recovery to early 2027, at 4-6% growth.
+
+
+Thesis: I recommend SHORT (sell) on LII for three reasons.
+
+1) Demand for Lennox's flagship brand is recovering slower than consensus assumes, as
+replacement pivots towards repairs and value brands. Consensus models 2027 residential revenue
+growth of about 6% with segment margins constant. Revenue could in principle be met by acquisitions
+and the indirect channel; holding margin cannot, because margin depends on the flagship brand that
+makes up roughly 80% of residential units. Management has already pushed the flagship recovery back
+twice and now places near-term growth in the indirect channel. We expect flagship volume to stay flat to
+down through 2027. Purchases of residential HVAC occur when an existing unit is replaced (75% of the
+time), either after a failure or as a planned renovation, or during new home construction (25%). Lennox's
+flagship brand sales are primarily of the first type, and management has deliberately shrunk its new
+construction business. Replacement-based flagship sales, however, are suppressed. First, cost and
+macro pressures make replacement significantly more expensive: installed cost is up 30–40% since
+2020, financing rates have roughly doubled, and a federal tax credit for efficient systems expired
+December 2025. Consumers are increasingly repairing rather than replacing. Across roughly 2 million
+tracked HVAC contractor jobs, repair rose from 21.6% of HVAC contractor revenue in 2021 to 31.3% in
+2025, meaning homeowners are choosing repairs over replacement.5 Simultaneously, Google search
+interest in AC repair relative to AC replacement has risen since the early 2020s and reached its highest
+levels in 2025 and 2026, even as total failure-related searches ran at roughly three times their 2019 level
+(see Appendix Figure 1).6 Moreover, we directly called 20 HVAC contractors, and 17/20 reported an
+increased share of repair requests relative to replacement requests within the last 3 years.7 Second,
+when replacement does occur, contractors increasingly offer lower-efficiency value lines. Daikin (a value-
+brand competitor to Lennox) reported American air-conditioning sales up 18% in Q2 2026, alongside a 3-
+point North American share gain.8 Lennox's CFO stated that Lennox's two-step (value brand) volumes
+held flat while one-step (flagship, direct) volumes fell in the mid-teens, in a quarter when industry
+shipments rose 11%. And, of the HVAC contractors called, 14/20 reported quoting Lennox less often than
+three years ago, while 15/20 reported customers choosing value over premium brands. Earnings growth
+requires higher-margin flagship sales. Lennox flagship sales account for roughly 80% of residential unit
+volume; residential is about 70% of company revenue; and the flagship carries the highest margin in the
+portfolio. Flagship stagnation therefore affects roughly half of revenue and more than half of profit, at a
+rate of about $0.25 of EPS for every point of residential volume.9 Three to seven points of volume below
+consensus is $0.75–1.75 of 2027 EPS.
+
+2) Rotation into value brands dilutes margin and strains Lennox's fixed costs. Lennox runs two
+channels with very different cost structures. With Lennox's flagship recovery stagnated, consensus
+residential HVAC volume recovery must come from Lennox's value brands. The flagship brand is sold
+"one-step," directly to contractors through a Lennox-operated network of roughly 250 stores; because
+Lennox acts as its own distributor, it keeps the wholesale spread an independent distributor would
+otherwise earn (Watsco's gross margin on that spread runs 27–29%).10 Lennox's value brands
+(Armstrong Air, Ducane, AirEase, Concord, and new acquisitions), however, are sold "two-step" through
+independent distributors, where Lennox is a minor line beside competitors and earns a manufacturer's
+margin only, roughly 24 cents per dollar, based on the profit Lennox's acquired value brands contributed
+in Q2 2026.11 This restricts earnings recovery from two sides simultaneously. On revenue, any recovered
+volume through value brands earns less. Lennox does not disclose margin by channel, but in Q2 2026
+the acquired value brands added about 2% of volume (roughly $20M of revenue) and $5M of segment
+profit, a ~24% contribution before integration costs and amortization. Management said that new
+acquisitions will not be accretive to EPS until 2027. On cost, lost flagship volume leaves a fixed base
+spread over fewer units. Per Lennox's own quarterly profit bridges, each of the last four quarters the
+company attributed $49–102M of lost residential profit to lower volume, which against the revenue lost to
+volume is a 36–40% decremental margin.12 One-to-one rotation from flagship to value-brand thus earns
+24 cents but loses ~38 cents on each dollar of sales on account of carrying roughly $540M a year of fixed
+flagship cost in stores (~$350M of lease liabilities), logistics, dealer support, and Lennox-held inventory.
+Value-brand units do not sell through that network, so they do nothing to recover it. Even if value-brand
+volume does eventually scale enough to recover profit on smaller margins, that happens on a longer
+horizon than consensus assumes. Value brands would need to grow roughly six times as fast as the
+flagship shrinks to hold residential profit flat,13 6–18% a year against a 1–3% flagship decline. But value-
+brand volumes were flat in Q2 during the industry restock, management guides low-single-digit growth for
+late 2026, and Lennox's own path to value growth is M&A, which operates on a longer timeline than early
+2027. This dilutive rotation is already materializing. On the Q2 call the CFO said value-brand volumes
+were flat YoY while flagship volumes fell in the mid-teens, in a quarter when industry shipments rose
+11%; in Q1 he attributed limited volume improvement to the value channel, and second-half growth is
+guided "mostly in the indirect (value) channel." HARDI's distributor data shows minimum-efficiency (e.g,
+value) units rising from 52% to 57% of AC volume YoY (May 2025 to May 2026).14 Each dollar rotated
+from flagship to value costs roughly 14 cents of residential segment profit. Even with flagship volume up
+4% and value brands up 6%, the cost structure produces a residential margin near 19.8% before any
+price increases; with flagship down 2% and value up 12% it is 19.0%. Consensus holds residential margin
+at roughly 21%, a gap of ~200 bps in an already unlikely volume growth case that only price increases
+could close.15 On consensus revenue estimates, each 100 basis points of residential margin is about
+$0.75 of EPS, so the rotation alone is worth $0.80–1.65 of consensus 2027 EPS.
+3) Price increases are suppressed and no longer large enough to hold margin. Consensus holds
+2027 residential margin near 21%. But price increases are unsustainable and unlikely to occur at the
+same rate as 2021-2025, for three reasons. First, most of Lennox's apparent pricing power since 2022
+came from regulatory catalysts (2023: mandated efficiency uprating; 2025: a refrigerant transition forcing
+buyers into pricier units). In years with no rule in force, a list increase of up to 10% realized only 2–4
+points, after accounting for down-mixing, discounts, etc (see Appendix Table 2).16 2027 expects no
+regulatory catalysts, so the relevant comparison is the weaker years. Second, HVAC demand is
+traditionally modeled as non-discretionary but in reality is more elastic than the market assumes; the
+elasticity shows up as repair and trade-down rather than as going without (see above, driver (1)),
+deterring excessive increases. 2026 price increases further demonstrated consumer elasticity; Lennox
+raised prices up to 10% while Carrier raised 6–8% and Trane 2–5%, and over the following two quarters
+Lennox's flagship units sales fell mid-teens against an industry up 11%. In revenue, +$24M of profit
+attributed to mix/price and −$49M to lower volume.17 Attributing even just half of that gap to price still
+implies 8–10 points of relative volume loss for 3–5 points of relative price, an elasticity of roughly −2 to
+−3. Industry-wide elasticity over 2019–25 was about −0.5 (equipment prices up 30–40%, units down 8–
+25%). So when Lennox unilaterally raises prices over peers, customers empirically sidestep by buying
+competitors. Third, the next increase faces constraints the last one did not. Two class actions (Berg v.
+Bosch et al., Isom v. Trane et al.) allege coordinated increases since 2020, which deters industry-wide
+joint price increases.18 Peers have already moderated to 2–8%; Watsco says 2026 pricing is back to
+historical patterns and calls 2025's margins an anomaly. Deutsche Bank now expects industry pricing to
+revert to its 0–2% historical range. Morgan Stanley attributes Lennox's post-COVID pricing power to
+"pricing above HVAC PPI, a tailwind that likely fades." Even conservatively, price/mix increases are
+unlikely to be successfully realized beyond 1-3%; realization of 1–2 points gross is 0.5–1 point net of
+tariffs.
+
+Valuation: Our base case is 2027 EPS of $24–25.50 against consensus of $26.12, and a share price of
+$320–350 at 13–14x P/E, versus $366 today. We assume flagship volume declines a further 6% in 2027,
+after residential volume fell 17% in 2025 and roughly 10% in 2026 (with flagship sales down mid-teens in
+Q2), value brands grow 6%, and one net point of price survives input inflation. That produces residential
+revenue roughly flat on a 20.1% margin and $24.42 of EPS, 6.5% below consensus (Appendix Table 3);19
+at 1.5 net points of price increase it is $24.80, still 5% below. Lennox currently trades at 15.5x 2026 EPS
+and 14.0x 2027 consensus EPS against a 10-year median above 21x, and the two 2026 guidance cuts
+each removed roughly 20% of the price on a ~4% change to the estimate. The market is thus highly
+skeptical of recovery delays, and we expect a third year of residential recovery delays to further compress
+P/E, in the short term, to ~13-14x, for a share price of ~$317-348.
+
+Catalysts: (1) If Daikin Q2 FY2026 results (early November) indicate a repeat quarter of double-digit
+Americas growth while Lennox reports residential volume down, the share-loss to value brands thesis is
+further confirmed. (2) Lennox typically announces the next year's increase in December; an
+announcement of <=5% implies price is back to its normal 1-2 point YoY increase (not enough to recover
+2027) and potentially signals response to active antitrust concerns. (3) The Q4 2026 results and initial
+2027 guidance, in late January will confirm, and we expect revised guidance with continued delay. A
+guide of $24.50–25.50 EPS with residential recovery described as second-half or 2028 is an indicator for
+the short.
+
+Risks: (1) Weather: A hot 2027 summer that leads to increased AC failures could force replacement
+regardless of price sensitivity, even if a larger share goes to repairs. This is mitigated by occurring post-
+2027 guidance revision, so an unpredictable summer is a late catalyst that the short can avoid on shorter
+horizon. (2) Commercial revenue from BCS could scale and outgrow HCS revenue; but consensus and
+management guidance project deceleration, and even a repeat of 2026's growth is less than one point of
+residential margin.20
+Appendix
+Sources
+1. AHRI Dec. 2025 and Jul. 2026 shipment releases; Deutsche Bank (DB), "Growth on a Cooling Cycle," 9/13/26.
+2. Lennox Q2 2026 call, 7/29/26 (two-step flat, one-step down mid-teens, total −12% → one-step ≈ 80% of volume).
+3. Lennox Q1/Q2 2026 10-Qs (volume −21%, −12%); FY2025 10-K (−17%); guidance cuts 4/29/26 and 7/29/26.
+4. Refinitiv consensus 9/2/26 via Morgan Stanley (MS), 9/3/26; segment margins MS 20.4%, DB 20.6%; P/E history DB Figs. 2–3.
+5. Housecall Pro, "Trades Pulse: HVAC Repair Economics" (2026), ~2M jobs 2021–25.
+6. Google Trends, US, monthly 2004–Sept. 2026; "AC repair," "AC replacement," "new AC"; Jun–Aug averages; author's calc.
+Appendix Figs. 1.
+7. Author's channel check, Sept. 2026, 20 contractors (Lennox dealer locator and general listings); questions and tallies in Appendix
+Table 1; small non-random sample.
+8. Daikin FY2026 Q1 results (Americas AC +18%); Nov. 2025 briefing (+3 pts NA share). Industry Q2 +11% from AHRI Mar./Jun.
+2026 YTD releases.
+9. ~$3.3B residential revenue × 1% × ~38% flow-through (n. 12) × 0.79 ÷ 34.5M shares ≈ $0.25.
+10. Watsco Q2 2026 10-Q (GM 27.5% vs 29.3%; Q1 10-Q: equipment mix). Watsco is a Carrier JV partner and does not carry
+Lennox.
+11. Lennox Q2 2026 10-Q (acquisitions ~2% of volume, $5M profit); Q2 call (accretive in 2027).
+12. Lennox Q3'25–Q2'26 segment bridges: volume headwinds $86/$102/$56/$49M vs revenue lost ~$238/$284/$151/$121M; CFO
+"35% incrementals" (Q2 call). Leases: FY2025 10-K.
+13. Flagship ~$2.7B, value ~$0.67B; 1% of flagship at 38¢ ≈ $10M profit ≈ $40M of value revenue at 24¢ ≈ 6% of value base.
+14. HARDI Unitary Market data, 12 months to May 2026, via Homepros, 7/27/26.
+15. $26.12 × 34.5M ÷ 0.80 + $96M interest + $109M corporate − ~$600M BCS profit ≈ $730M on ~$3.45B ≈ 21%; inputs DB 2027E.
+16. Lennox 10-Ks 2022–25, 2026 10-Qs (price/mix); announced increases and peer increases per ACHR News, 2021–Feb. 2026.
+Appendix Table 2.
+17. Lennox Q2 2026 10-Q bridge. Industry elasticity: BLS AC/refrigeration PPI (+50% since 2020, DB Fig. 12) vs AHRI shipments
+2019–25.
+18. Berg v. Bosch et al. (E.D. Mich., 3/20/26); Isom v. Trane et al., 2:26-cv-11294 (E.D. Mich., 4/20/26); six cases consolidated
+5/14/26. Watsco Q2 call; DB 9/13/26 p. 8; MS 9/3/26.
+19. Author's model; 2026E base and non-residential inputs from DB 9/13/26.
+
+
+
+
+                                                                                        Table 3 methodology. Base assumptions: residential (HCS) revenue $3,252M and
+                                                                                        segment profit $660M (20.3%); commercial (BCS) revenue $2,286M and profit $557M.
+                                                                                        The flagship channel is taken as 80% of 2026E residential revenue ($2,602M), from the
+                                                                                        CFO's Q2 2026 channel commentary; value brands are the remaining $650M. Residential
+                                                                                        2027 revenue = (flagship revenue × (1 + flagship volume change) + value revenue × (1 +
+                                                                                        value volume change)) × (1 + gross price/mix) + $60M of incremental acquired revenue
+                                                                                        (annualization of Heat Controller). Residential 2027 profit = $660M + 38% × (flagship
+                                                                                        revenue × flagship volume change) + 24% × (value revenue × value volume change +
+                                                                                        $60M) + net realized price × 2027 residential revenue. The 38% is the flow-through
+                                                                                        Lennox's Q3 2025–Q2 2026 segment bridges show on lost volume (36–40%;
+                                                                                        management guides "35% incrementals"); the 24% is the contribution implied by Q2 2026
+                                                                                        acquisitions ($5M profit on ~$20M revenue). Gross price/mix lifts revenue; net price, after
+                                                                                        input-cost inflation, flows to profit at roughly 100%. Gross price/mix by case: consensus
+                                                                                        3.0, bull 3.0, base 2.5, bear 1.0. BCS grows 6% at a 24.8% margin ($601M). Corporate
+                                                                                        expense −$109M, interest $96M, tax rate 20%, 34.5M diluted shares, all per DB 2027E.
+                                                                                        EPS = (residential profit + $601M − $109M − $96M) × 0.80 ÷ 34.5M. Consensus 2027
+                                                                                        EPS $26.12 (Refinitiv, Sept. 2, 2026); current price $366 (Sept. 11, 2026). Share prices
+                                                                                        are EPS × the stated multiple.
+
+
+
+
+                                                                                                                                              AI disclosure: Claude
+                                                                                                                                              was used for concept
+                                                                                                                                              explanation, retrieval of
+                                                                                                                                              figures from filings and
+                                                                                                                                              AHRI releases, some
+                                                                                                                                              research, and model
+                                                                                                                                              structure; all primary
+                                                                                                                                              research, analysis, and
+                                                                                                                                              text are the author's.
+
