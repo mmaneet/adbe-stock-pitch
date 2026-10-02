@@ -18,4 +18,6 @@ CON-3c,Management-implied H2 FY26 organic net-new-ARR cut (10.2% target held whi
 CON-sum-base,All three concessions,base sum,-510,concessions/data/concessions_eps.csv,3% seats + 10% Stock + 3% individual
 CON-sum-bear,All three concessions,bear sum,-865,concessions/data/concessions_eps.csv,5% seats + 20% Stock + 5% individual
 NNARR,FY26 organic net new ARR vs FY25 ($2.14B vs $2.63B),-$490M,-490,concessions/data/net_new_arr_fy25_vs_fy26.csv,run-rate shortfall; FY27 consensus $2.34B needs +9% re-acceleration
-C2-a,PENDING Subagent B: enterprise content-stack ARR growth scenarios,8/12/16%,,c2_content/data/eps_content_stack.csv,filled on completion
+C2-a,Enterprise content-stack ARR (FY25 Digital Experience subscription base $5.41B) grows,8%,433,c2_content/data/eps_content_stack.csv,8% ~ falsifier floor; DX no longer reported from FY26 (single segment)
+C2-b,Enterprise content-stack ARR (FY25 Digital Experience subscription base $5.41B) grows,12%,649,c2_content/data/eps_content_stack.csv,8% ~ falsifier floor; DX no longer reported from FY26 (single segment)
+C2-c,Enterprise content-stack ARR (FY25 Digital Experience subscription base $5.41B) grows,16%,865,c2_content/data/eps_content_stack.csv,8% ~ falsifier floor; DX no longer reported from FY26 (single segment)

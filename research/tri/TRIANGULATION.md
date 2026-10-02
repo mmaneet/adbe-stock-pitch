@@ -1,0 +1,107 @@
+# ADBE long: triangulation of the "AI-resilient, in places AI-synergistic" step
+
+Prepared 2026-10-02 (first-round deadline). Standard: every contention must converge from independent source types (company | peer | industry | alt | primary); company data alone is not sufficient; every finding converted to EPS. Source numbers refer to `sources_numbered.md`. Workstream folders: `c1_mix/`, `c2_content/`, `c3_economics/`, `c4_users/`, `concessions/`, `channel_check/`. Items the team must collect by hand are in `NEEDS_MANUAL.md`.
+
+Environment note: on this run sec.gov, bls.gov, adobe.com IR PDFs, fool.com and onetonline.org were reachable and were used as primary sources (verified = Y in each sources.csv). Canva, Figma IR, OpenAI, Midjourney, helpx and Wayback were not; those figures are marked VERIFY. The primary-research column is empty everywhere because no channel-check calls have been made yet; the kit is ready.
+
+---
+
+## WHAT CUTS AGAINST US
+
+Every weakening finding and every falsifier that fired, strongest first.
+
+1. **Churn-intent search ratio is at all-time highs (C4 falsifier TRIGGERED; alt data; confidence medium on shape).** ("cancel adobe" + "photoshop alternative") ÷ ("photoshop" + "adobe"), US, 2019 = 1.00: 1.68 in 2024, 1.89 in 2025, 4.06 in 2026 year to date; 8 of 9 months of 2026 exceed the 2025 maximum; worldwide 2.66 → 7.42. Firefly's share of AI-tool search is flat at ~0.20 and "chatgpt image" has risen from 0.13 to 0.21 of "photoshop". Likely drivers (VERIFY): the $150M DOJ/FTC cancellation-fee settlement and CMA probe (Mar 2026) and 12–25% list-price rises (Jun 2026). Present Appendix Fig. 1 as a risk exhibit, not a support exhibit. [26][27]
+2. **FY26 organic net new ARR is running 19% below FY25 (concession; company data, verified; confidence high).** Like-for-like at Dec-2025 FX: FY25 $0.47e/0.58/0.66/0.92 = $2.63B; FY26 $0.40/0.56 (+$0.48B Semrush)/0.40/0.78 implied = $2.14B organic; Q3 −39% ("down 36%, 37%" on the call, undisputed). FY27 consensus of $2.34B needs a 9% re-acceleration. Falsifier to watch: Q4 FY26 net new ARR below ~$0.78B. [3][4][33]
+3. **US creative employment is falling and BLS attributes it to AI (concession; industry; confidence high).** Graphic designers 214,260 → 197,830 (−7.7%, May 2024 → May 2025); five creative occupations −4.9%; OOH 2025–35 projection −2%, citing automated design tools. Fiverr (revenue −10%, guide −14% to −17% on AI-exposed categories) and Upwork (GSV −4%) confirm the low end of the market is shrinking. [19][23][24]
+4. **Management lowered individual-subscriber ARR by choice (concession; company; confidence medium).** The 10.2% FY26 ARR target was held while Semrush added ~$480M, implying a ~$480M organic cut; "maybe half" from deferred ("not closed") Creative Cloud price actions and half from routing users to freemium. WS1's implied Creative volume/mix growth fell from 9.3% to 6.1% over six quarters. [5][10][31]
+5. **Adobe's own margins are slipping as AI usage scales (C3 falsifier PARTIALLY triggered; company; confidence medium-high).** Subscription gross margin 91.3% → 90.4% (−0.8 pt YoY) with hosting/AI inferencing contributing 22 points of a 24% rise in cost of subscription; non-GAAP operating margin 44.0% (−2.3 pt YoY). −1 pt of subscription gross margin is −$0.54 of EPS; the observed −0.8 pt (−$0.44) is roughly offset by +$400M of AI-first ARR (+$0.38). Semrush mix is entangled. [1][2][34]
+6. **The exposure-tier split is reconstructed, not disclosed (C1; company; confidence medium).** Adobe never discloses individual vs teams Creative Cloud ARR. The 18–27% individual share rests on a 40/50/60% assumption applied to Creative ARR plus a pixel-measured route-to-market chart from the March 2025 investor deck (±5–10 pts). Judges can attack this. [8]
+7. **AI-native tools are winning business seats in adjacent categories (C1 peer; confidence medium).** Figma NDR 136%, >$100k customers +46%; Canva reports ~$500M of ARR from >25-seat accounts (VERIFY). Adobe's share of the Adobe-Figma-Canva pool slips ~2 pts a year (prior WS5). [12][13][31]
+8. **Adobe's disclosed enterprise-AI growth floors are stepping down (C2; company).** GenStudio ARR growth floors 30% → 25% → 20% and AEP & Apps 40% → 30% → 20% over Q1–Q3 FY26; Digital Experience revenue is no longer reported, so the C2 falsifier (<8% growth) cannot be tested directly. The "asset generations 4x" starting fact was not found in any transcript or 8-K; do not cite it. [5][6][9]
+9. **Agencies are producing more content without paying more for it (C2 industry).** WPP: 2.5x asset output on flat headcount (internal data, VERIFY); Publicis's creative practice grew low-single-digit in H1 2026; holding-company headcount is down 5% from the 2023 peak. Volume is rising; agency spend on production is not. [17][18]
+10. **Adobe's credit-priced partner-model images cost 2–3x peers (C3 industry).** ~$0.08–0.10 per image via credits vs Midjourney $0.03–0.05 and API list $0.03–0.07; mitigated because native Firefly images are unlimited on paid plans and Adobe carries enterprise indemnity that Midjourney lacks. [11][28][29]
+
+---
+
+## Triangulation matrix
+
+Marks: ✓ supports, ✗ weakens, ~ mixed, — missing. Each cell: one-line finding and source numbers.
+
+| Contention | Company | Peer | Industry | Alt data | Primary | Verdict / falsifier |
+|---|---|---|---|---|---|---|
+| C1 Revenue sits where AI makes Adobe harder to replace | ✓ Individual Creative Cloud reconstructed at $5.0-7.5B = 18-27% of $27.5B ARR; Acrobat/documents 28%, Digital Experience 25%; BP&C +16% vs C&MP +13%; CC enterprise ARR $2.2B FY24 at 15% CAGR; CFO: teams/enterprise 'continued strength'. Caveat: net new ARR -36% Q3, RPO growth 13% -> 8% [1][4][8][3] | ~ DocuSign DNR 103%, AI-native IAM 15% of ARR: document incumbents retain and layer AI [14]. Figma NDR 136%, >$100k customers +46%; Canva ~$500M ARR from >25-seat accounts: AI-native tools win business seats in adjacent categories [12][13] | ✓ O*NET/Lightcast 2025 postings for graphic designers require Illustrator 62%, Photoshop 61%, InDesign 49% vs Figma 11%, Canva 7%; Photoshop 112k postings vs Canva 74k nationally [21] | ~ Ramp: 56% of businesses pay for AI; Canva 87% / Figma 99% of their category buyers, flat YoY; no Adobe vendor data (UNAVAILABLE) [22] | — Survey A Q1/Q4 and Survey B Q4 not yet run [32] | SUPPORTED (confidence medium-high on mix, medium on growth). Falsifier NOT triggered: individual tier far below 50% of ARR under all sensitivities; T/E vs individual growth rests on company sources only. EPS: individual tier -10%/yr = -$0.47 to -0.71 [34] |
+| C2 AI multiplies content demand and Adobe sells the production stack | ✓ AI-first ARR >$650M +150%; CXO AI-first 4x; GenStudio >$1B ARR; Firefly Enterprise new customers +50%; video generative actions >8x. Soft spots: GenStudio/AEP growth floors stepped 30 -> 25 -> 20% over FY26; Digital Experience no longer reported (single segment) [1][5][6][7][9] | ✓ Meta advertisers using gen-AI creative tools >1M (Jul-24) -> >4M -> >8M (Apr-26), >9M small businesses; Advantage+ $20B -> $75B run-rate; Google >2M advertisers on AI asset generation +50%, ~70M assets in Q4-25, >30% of Search customers on AI Max/PMax [15][16] | ~ WPP: 2.5x asset output on flat headcount (internal data, VERIFY); WPP headcount -8.7%; Publicis production 'double digits' but creative practice low-single-digit; Omnicom no volume data: content volume up, agency revenue capture flat [17][18] | ✓ Digital Media revenue per US creative worker index 241 (CAGR 15.8%) while creative employment -5%: output decoupled from headcount [19][31]. Meta Ad Library counts NOT COLLECTED (manual protocol) | — Survey A Q2 (assets per campaign) not yet run [32] | SUPPORTED on volume; Adobe's capture of it rests on company floors. Falsifier NOT triggered (DX never below 11% while reported) but the series is discontinued and growth floors are falling. EPS: content-stack ARR +8/12/16% on $5.41B = +$0.41/0.61/0.82 [34] |
+| C3 Adobe can afford AI at scale and charge for it | ~ Subscription GM 91.3% -> 90.4% (-0.8 pt YoY) as hosting incl. AI inferencing drove +22 pts of cost growth; non-GAAP op margin 44.0% (-2.3 pt) but FY26 guide ~45% held; 9M FCF $7.47B, capex 0.9% of revenue; CFO watches cost per inference 'maniacally' [1][2][7] | ✓ Figma GAAP GM 91.5% -> 79-84%, +$27M AI hosting, FCF margin 27% -> 14%, unmonetized beta inference; Canva 2026 growth guide 30% -> 20% on AI serving cost, some features cost ~6x price, valuation marked -17% [12][13] | ~ Adobe partner-model images ~$0.08-0.10 via credits vs Midjourney $0.03-0.05, API $0.03-0.07 (2-3x), but native Firefly images unlimited on paid plans (marginal $0); flagship API prices flat ~$0.03-0.04 since 2023 [11][28] | — none collected | ✓ Enterprise IP indemnity: Adobe, Google, OpenAI (capped) offer it; Canva Enterprise-only; Midjourney none; Deloitte: 35% cite IP concerns [29][30]. Survey A Q3/Q5 not yet run [32] | SUPPORTED (confidence medium-high company, medium peers). Falsifier PARTIALLY triggered: margins slipping ~1 pt as usage scales, from a 91% base. EPS: -1 pt subscription GM = -$0.54; observed -0.8 pt = -$0.44 vs +$0.38 from +$400M AI-first ARR [34] |
+| C4 Users are coming to Adobe not leaving | ✓ MAU >1B (+20%); Acrobat+Express MAU >700M -> >900M; creative freemium MAU >50M -> >100M (+70%); AI-first ARR >$650M; all lower bounds [1][4][5] | ~ Canva $4B ARR but 2026 growth guide cut to 20%; Figma +48% [12][13] | ✗ Documented churn drivers: 12-25% list-price rises effective 6/1/26; $150M DOJ/FTC cancellation-fee settlement; UK CMA probe (VERIFY) [27] | ✗ Google Trends churn-intent ratio (US, 2019 = 1.00): 1.68 (2024) -> 1.89 (2025) -> 4.06 (2026 YTD); 8 of 9 months of 2026 above the 2025 maximum; worldwide 2.66 -> 7.42; Firefly share of AI-tool search flat ~0.20; 'chatgpt image' / 'photoshop' 0.13 -> 0.21; brand searches -15 to -23% YoY [26] | — Survey B Q1/Q3/Q5 not yet run; Similarweb and Google Play manual protocols written [32] | MIXED: gross acquisition SUPPORTED, 'not leaving' WEAKENED. Falsifier leg 1 (churn-intent at new highs) TRIGGERED; leg 2 (MAU not converting) not triggered. EPS (descriptive): $8 AI-first ARR per incremental freemium MAU; +50M MAU = +$0.38 [34] |
+| Concessions (seat compression; Adobe Stock; individual subscribers; net new ARR) | ✗ FY26 organic net new ARR $2.14B vs FY25 $2.63B (-19%), Q3 -39%; H2 individual ARR lowered by deferred price actions and freemium routing ('maybe half' each); Adobe Stock ~$450M declining faster than expected [3][4][5][6] | ✗ Fiverr revenue -10%, FY26 guide -14% to -17% on AI-exposed categories; Upwork GSV -4% (AI-related +22%); Shutterstock content revenue -17%, subscribers -11%; Getty annual subscribers -25% [23][24][25] | ✗ BLS: graphic designers -7.7%, five creative occupations -4.9% (May-24 to May-25); OOH 2025-35 -2% citing AI design tools [19] | ~ Indeed creative postings 71-84 vs total 103 (Feb-20 = 100) but +4.9% YoY; WS1 implied C&MP volume/mix growth 9.3% -> 6.1% [20][31] | — Survey A Q1/Q6, Survey B Q1/Q5 not yet run [32] | Bounded, not fully offset. Base: 3% T/E seats + 10% Stock + 3% individual = -$510M ARR = -$0.48 EPS (1.8% of FY27); bear -$865M = -$0.82 (3.0%); AI-first adds (~$400M/yr) cover any one concession but only 0.8x/0.5x of all three. FALSIFIER to watch: Q4 FY26 net new ARR below the ~$0.78B implied by the 10.2% target [34] |
+
+---
+
+## C1. Most revenue sits where AI makes Adobe harder to replace — SUPPORTED (confidence medium-high on mix, medium on growth)
+
+Strongest independent data points:
+- Company: BP&C (Acrobat, Express) $1.905B +16% vs C&MP $4.651B +13% in Q3 FY26; BP&C share of subscription revenue 27.4% → 29.1% since Q1 FY24; Creative Cloud enterprise ARR $2.2B in FY24 compounding at 15% vs ~10% for other subscriptions; CFO 9/10/26: "continued strength in Creative Cloud across our Teams and Enterprise offerings". [1][4][8]
+- Peer: DocuSign, the document-workflow comparable, shows retention improving under AI (DNR 102% → 103%; AI-native IAM 15.1% of ARR from 10.8% in two quarters). [14]
+- Industry: O*NET/Lightcast 2025 postings: graphic-designer roles require Illustrator 62%, Photoshop 61%, InDesign 49% vs Figma 11%, Canva 7%; Photoshop appears in 112k postings nationally vs Canva 74k and Figma 59k. [21]
+- Against: Figma NDR 136% and Canva's >25-seat ARR (+100%, VERIFY) show AI-native tools winning business seats in adjacent categories; RPO growth slowed to +8.4% and fell sequentially twice. [12][13][1]
+- EPS: individual tier (base $6.25B) −5% / −10% / −20% per year = −$0.30 / −$0.59 / −$1.19 (−$0.24 to −$1.42 across the 40–60% sensitivities; at 35% margin −$0.18 to −$1.11). [34]
+- Falsifier (individual CC >50% of ARR; or T/E growth below individual): NOT triggered, but the growth leg rests on company sources only.
+
+## C2. AI multiplies content demand; Adobe sells the production/compliance/distribution stack — SUPPORTED on volume, capture unproven (confidence medium)
+
+- Company: AI-first ARR >$125M (Q1 FY25) → >$250M → >$500M → >$650M (Q3 FY26, +150%); CXO AI-first ARR 4x; GenStudio >$1B ARR; Firefly Enterprise new customers +50%; video generative actions >8x. All lower bounds. [1][5][6][7]
+- Peer (independent, dated, monotonic): Meta advertisers using generative creative tools >1M (Jul 2024) → >4M (Jan 2025) → >8M (Apr 2026), >9M small businesses (Jul 2026); Advantage+ run-rate $20B → $75B; Google >2M advertisers on AI asset generation (+50%), ~70M assets generated in Q4 2025, >30% of Search customers on AI Max/PMax. [15][16]
+- Industry: WPP 2.5x asset output, 50–70% less time, flat headcount (VERIFY); Publicis production "growing double digits". [17][18]
+- Alt: Digital Media revenue per US creative worker index 241 (CAGR 15.8%, FY19–25) while creative employment fell 5%: output has decoupled from headcount. [19][31]
+- Against: GenStudio/AEP growth floors fell three quarters running; Digital Experience no longer reported; agency creative practices grew only low-single-digit. [5][6][9][18]
+- EPS: enterprise content-stack ARR (FY25 DX base $5.41B) +8% / +12% / +16% = +$433M / +$649M / +$865M ARR = +$0.41 / +$0.61 / +$0.82. [34]
+- Falsifier (content volume flat, or DX growth <8%): NOT triggered; DX grew 11–13% every reported quarter through FY25, but the series is discontinued.
+
+## C3. Adobe can afford AI at scale and charge for it; AI-native competitors are struggling — SUPPORTED (confidence medium-high company, medium peers)
+
+- Company: subscription gross margin 90.4% (Q3 FY26, −0.8 pt YoY) with AI inferencing visible in MD&A; non-GAAP operating margin guide ~45% held; 9M FCF $7.47B on capex of 0.9% of revenue; CFO: cost per inference watched "maniacally". [1][2][7]
+- Peer: Figma GAAP gross margin 91.5% → 79.4% (Q1 2026) → 83.7% (Q2 2026), cost of revenue +117% with +$27.1M AI hosting, FCF margin 27% → 14%, "we bear the cost of inference without offsetting consumption revenue"; Canva: 2026 growth guide 30% → 20%, some features cost ~6x their price, cost per task −90%, valuation marked to $34.9–39.3B (VERIFY). [12][13]
+- Industry: flagship image-API prices have held at ~$0.03–0.04 since late 2023 (DALL·E 3 $0.04 → gpt-image-2 $0.03; Imagen 4 $0.04; Nano Banana 2 $0.067): costs are not collapsing toward zero. Adobe's native generations are unlimited on paid plans; partner-model images cost ~$0.08–0.10 via credits. [11][28]
+- Primary (terms): Adobe, Google and OpenAI (capped) indemnify enterprise users; Canva only on Enterprise; Midjourney not at all; Deloitte: 35% of enterprises cite IP concerns. [29][30]
+- EPS: −1 / −2 / −3 pt subscription gross margin = −$0.54 / −$1.08 / −$1.63; each +$100M AI-first ARR = +$0.095; ~$573M of AI-first ARR offsets 1 pt of gross margin. [34]
+- Falsifier (margins falling as AI scales; price >2x peers with no indemnity differential): PARTIALLY triggered on margins, not on price.
+
+## C4. Users are coming to Adobe, not leaving — MIXED (confidence high on company data, medium on Trends)
+
+- Company: MAU >1B (+20% YoY, Q3 FY26); Acrobat+Express MAU >700M → >900M; creative freemium MAU >50M → >100M (+70%); AI-first ARR >$650M. [1][4][5]
+- Alt (against): churn-intent search ratio 1.89 (2025) → 4.06 (2026 YTD) US, 2.66 → 7.42 worldwide; brand searches −15 to −23% YoY in Aug–Sep 2026; Firefly's share of AI-tool search flat at ~0.20. [26]
+- Industry (against, VERIFY): 12–25% list-price rises effective 6/1/26; $150M cancellation-fee settlement; CMA probe. [27]
+- Peer: Canva $4B ARR but 2026 growth guide cut to 20%; Figma +48%. [12][13]
+- EPS (descriptive, not causal): AI-first ARR added per incremental creative-freemium MAU = (650 − 250) / (100 − 50) = $8; +50M MAU at $8 = +$400M ARR = +$0.38; +100M = +$0.76. Condition the bridge on the ratio holding. [34]
+- Falsifier leg 1 (churn-intent at new highs): TRIGGERED. Leg 2 (freemium MAU not converting to AI-first ARR): not triggered. Reframe C4 as "gross acquisition outpaces visibly elevated churn intent".
+
+## Concessions — bounded, not fully offset
+
+| Concession | Evidence | ARR (base / bear) | EPS (base / bear) | Covered by AI-first adds (~$400M/yr) |
+|---|---|---|---|---|
+| Seat compression (teams/enterprise CC, est. $8.5B) | BLS −7.7% designers, −4.9% creative5; OOH −2% citing AI; Fiverr/Upwork AI-exposed weakness [19][23][24] | −$255M / −$425M | −$0.24 / −$0.40 | 1.6x / 0.9x |
+| Adobe Stock (~$450M) | Q1 FY26: declining faster than expected; implied −4% today; Shutterstock content −17%, Getty subscribers −25% [6][25] | −$45M / −$90M | −$0.04 / −$0.09 | 8.9x / 4.4x |
+| Individual subscribers (est. $7.0B) | H2 individual ARR lowered; ~$480M organic cut implied; WS1 volume 9.3% → 6.1% [5][10][31] | −$210M / −$350M | −$0.20 / −$0.33 | 1.9x / 1.1x |
+| All three | | −$510M / −$865M | −$0.48 (1.8% of FY27) / −$0.82 (3.0%) | 0.8x / 0.5x |
+
+At a 75% decremental margin on lost subscription revenue the EPS figures are −$0.80 / −$1.36. Net new ARR trajectory (FY26 organic $2.14B vs $2.63B) is the item most likely to be raised by judges; the answer is that the FY27 consensus of $2.34B already assumes only partial re-acceleration and the stock trades at ~9.9x the FY26 guide. [3][33][35]
+
+---
+
+## Exhibits (research/tri/exhibits/)
+
+1. `Fig1_google_trends_churn_intent_ratio.png` — churn-intent ÷ brand search ratio, US and worldwide, 2019–2026 YTD (risk exhibit). [26]
+2. `Fig2_content_proliferation_ad_platforms.png` — Meta and Google disclosed gen-AI creative adoption, Q2 2024–Q2 2026. [15][16]
+3. `Table2_price_per_generation.png` — implied $ per image generation, list plans vs API, Oct 2026. [11][28]
+4. `Table1_channel_check_TEMPLATE_example.png` — Lennox-style yes/no tally template (EXAMPLE DATA, n = 2); regenerate with `channel_check/tally_chart.py` once responses exist. [32]
+Also strong: `c1_mix/charts/exposure_tiers_eps_at_risk.png`, `c3_economics/charts/adobe_vs_figma_gross_margin_ai_arr.png`, `concessions/charts/net_new_arr_fy25_vs_fy26.png`.
+
+## Workbook
+
+`research/ADBE_alt_data.xlsx` now has a `Triangulation` tab (this matrix) and an `EPS_bridge` tab: the ARR→EPS constant is a live formula on blue inputs (45% margin, 18% tax, 389M shares, all from the Q3 FY26 8-K) and every contention's ARR delta flows through it, with a low-margin (35%) column and a % of FY27 consensus EPS column.
+
+## What completed, what is UNAVAILABLE, what needs manual collection
+
+- Completed: A–F all delivered within the time box; 36 numbered sources; 5-row matrix; 22-row EPS bridge; 4 exhibits.
+- UNAVAILABLE in this environment: Canva primary letter and pricing; Figma IR site (SEC filings used instead); helpx credits FAQ; OpenAI/Midjourney terms; Wayback; Similarweb; Google Play history; Meta Ad Library counts; Q1 FY26 AI-first ARR dollar figure (Adobe never gave one); Adobe individual vs teams split (never disclosed); FactSet consensus (not verifiable from open sources).
+- NEEDS_MANUAL.md lists 25 items with URLs: the three manual data waves (Meta Ad Library, Similarweb, Google Play), a hand re-export of Google Trends before publication, the Canva letter, the Adobe Q1 FY26 investor datasheet (to check the "4x asset generations" claim), and the helpx/indemnity pages.
