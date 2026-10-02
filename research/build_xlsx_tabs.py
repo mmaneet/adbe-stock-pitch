@@ -281,9 +281,55 @@ def add_task_exposure(wb, ctx):
 def add_call_nlp(wb, ctx):
     read_csv, write_df, hdr, autosize, BLUE, BLACK, BOLD, ROOT = ctx
     ws = wb.create_sheet("CallNLP")
-    ws["A1"] = "WS4: earnings-call analyst-question analysis and forward P/E"; ws["A1"].font = BOLD
-    note(ws, 3, "PENDING: workstream output not yet integrated")
-
+    ws["A1"] = "WS4: earnings-call analyst-question analysis and forward P/E (blue = counted/sourced input; black = formula)"; ws["A1"].font = BOLD
+    note(ws, 2, "13 of 15 calls from full transcripts (GitHub mirrors); FY25 Q2 and FY26 Q3 reconstructed from search snippets (partial coverage, LOW confidence). Topic labels hand-reviewed (72% agreement with keyword rules).")
+    fi = read_csv("ws4_call_nlp/data/fear_index.csv"); pe = read_csv("ws4_call_nlp/data/forward_pe.csv"); vc = read_csv("ws4_call_nlp/data/vocab_counts.csv")
+    r = 4
+    if fi is None or pe is None:
+        note(ws, r, "UNAVAILABLE: ws4 data files missing"); return
+    ws.cell(row=r, column=1, value="A. Analyst question counts by topic, fear index (formula) and forward P/E (formula)").font = BOLD; r += 1
+    cols = ["call","call_date","n_questions","n_ai_disruption","n_seats_pricing","n_ai_monetization","n_dx","n_margins","n_leadership","n_macro_other","fear_index_strict (f)","fear_index_broad_src","coverage","price_next_day_close","guidance_fy","guide_eps_low","guide_eps_high","guide_eps_mid (f)","forward_pe (f)","guidance_basis","guidance_url"]
+    hdr(ws, r, cols); r += 1
+    pe_by = {x["call"]: x for _, x in pe.iterrows()}
+    first = r
+    for _, rec in fi.iterrows():
+        p = pe_by.get(rec["call"], {})
+        ws.cell(row=r, column=1, value=rec["call"]); ws.cell(row=r, column=2, value=rec["date"])
+        for j, col in enumerate(["n_questions","n_ai_disruption","n_seats_pricing","n_ai_monetization","n_dx","n_margins","n_leadership","n_macro_other"]):
+            ws.cell(row=r, column=3 + j, value=_num(rec[col])).font = BLUE
+        ws.cell(row=r, column=11, value=f"=(D{r}+E{r})/C{r}").number_format = "0.00"
+        ws.cell(row=r, column=12, value=_num(rec["fear_index_broad"])).font = BLUE
+        ws.cell(row=r, column=13, value=str(rec["coverage"])[:60])
+        ws.cell(row=r, column=14, value=_num(p.get("price_next_day_close")) if len(p) else None).font = BLUE
+        ws.cell(row=r, column=15, value=p.get("guidance_fy") if len(p) else None)
+        ws.cell(row=r, column=16, value=_num(p.get("guide_eps_low")) if len(p) else None).font = BLUE
+        ws.cell(row=r, column=17, value=_num(p.get("guide_eps_high")) if len(p) else None).font = BLUE
+        ws.cell(row=r, column=18, value=f"=AVERAGE(P{r}:Q{r})").number_format = "0.000"
+        ws.cell(row=r, column=19, value=f"=N{r}/R{r}").number_format = "0.0"
+        ws.cell(row=r, column=20, value=p.get("guidance_basis") if len(p) else None)
+        ws.cell(row=r, column=21, value=p.get("guidance_url") if len(p) else None)
+        r += 1
+    last = r - 1
+    r += 1
+    ws.cell(row=r, column=1, value="Correlation(fear index strict, forward P/E), all 15 calls (formula)"); ws.cell(row=r, column=2, value=f"=CORREL(K{first}:K{last},S{first}:S{last})").number_format = "0.00"; r += 1
+    ws.cell(row=r, column=1, value="Mean fear index FY23 calls (formula)"); ws.cell(row=r, column=2, value=f"=AVERAGE(K{first}:K{first+3})").number_format = "0.00"; r += 1
+    ws.cell(row=r, column=1, value="Mean fear index FY26 calls (formula)"); ws.cell(row=r, column=2, value=f"=AVERAGE(K{last-2}:K{last})").number_format = "0.00"; r += 1
+    ws.cell(row=r, column=1, value="Forward P/E change, first to last call (formula)"); ws.cell(row=r, column=2, value=f"=S{last}/S{first}-1").number_format = "0.0%"; r += 2
+    if vc is not None:
+        ws.cell(row=r, column=1, value="B. Management vocabulary per 10k words: seat vs usage terms (hits in blue; rates and ratio are formulas)").font = BOLD; r += 1
+        hdr(ws, r, ["call","date","mgmt_words","seat_hits","usage_hits","seat_per_10k (f)","usage_per_10k (f)","usage_minus_seat (f)","usage_to_seat_ratio (f)","detail"]); r += 1
+        for _, rec in vc.iterrows():
+            ws.cell(row=r, column=1, value=rec["call"]); ws.cell(row=r, column=2, value=rec["date"])
+            ws.cell(row=r, column=3, value=_num(rec["mgmt_words"])).font = BLUE
+            ws.cell(row=r, column=4, value=_num(rec["seat_hits"])).font = BLUE
+            ws.cell(row=r, column=5, value=_num(rec["usage_hits"])).font = BLUE
+            ws.cell(row=r, column=6, value=f"=D{r}/C{r}*10000").number_format = "0.0"
+            ws.cell(row=r, column=7, value=f"=E{r}/C{r}*10000").number_format = "0.0"
+            ws.cell(row=r, column=8, value=f"=G{r}-F{r}").number_format = "0.0"
+            ws.cell(row=r, column=9, value=f'=IF(D{r}=0,"n/a",E{r}/D{r})').number_format = "0.0"
+            ws.cell(row=r, column=10, value=str(rec["detail"])[:200])
+            r += 1
+    autosize(ws, maxw=45)
 def add_tabs(wb, name_row, read_csv, write_df, hdr, autosize, BLUE, BLACK, BOLD, ROOT):
     ctx = (read_csv, write_df, hdr, autosize, BLUE, BLACK, BOLD, ROOT)
     for fn in (add_price_volume, add_seat_compression, add_task_exposure, add_call_nlp, add_trends_competitors, add_sources):

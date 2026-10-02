@@ -35,8 +35,11 @@ UNAVAILABLE. Treat snippet-sourced figures as "verify before slide" and re-pull 
    wave laps in Q3 FY26.
 6. **Agency headcount is falling at the largest Adobe enterprise customers (WS2, confidence medium).** Big-4 holding
    company headcount is down 5.2% from the 2023 peak; WPP is down 14.6% from 2022; Omnicom plus IPG cut ~8,200 in 2025.
-7. **The analyst "AI fear" signal could not be measured with full transcripts (WS4).** See the WS4 section for what was
-   recoverable and how much weight it can bear.
+7. **Analyst AI-fear is still rising and the stock keeps selling off on prints (WS4, confidence medium).** The strict
+   fear index rose from 0.22 (FY23 average) to 0.55 (FY26 average, 0.80 on the June 2026 call), and the stock fell the
+   next day after 8 of 10 calls from March 2024 to June 2026 (median -7.2%) despite beats. On the June 2026 call an
+   analyst sized the freemium push plus deferred Creative Cloud "line optimizations" at ~$0.5B of ARR, and management
+   said about half is deferred pricing: the seat/price lever has been paused by choice.
 
 ---
 
@@ -83,9 +86,25 @@ UNAVAILABLE. Treat snippet-sourced figures as "verify before slide" and re-pull 
   opportunity is understated). Impact: WEAKENS the "usage monetization covers the exposed stages" leg; SUPPORTS the
   "marketing/enterprise revenue is platform-protected" leg. Maneet to spot-check the 15 hand overrides.
 
-## WS4: earnings-call text analysis
+## WS4: earnings-call text analysis (FY23 Q1 to FY26 Q3, 15 calls)
 
-PENDING: workstream still running at the time of this draft; section will be replaced when it reports.
+- Mode: hybrid. 13 of 15 full transcripts were found as files in public GitHub repositories; FY25 Q2 and FY26 Q3 were
+  reconstructed from search snippets (2 and 6 questions recovered, LOW confidence). 133 analyst questions were
+  keyword-classified then fully hand-reviewed (72% agreement, 37 overrides).
+- AI fear is rising, not fading: the strict fear index (share of questions on AI disruption or seats/pricing/retention)
+  averaged 0.22 in FY23, 0.43 in FY24, 0.32 in FY25 and 0.55 in FY26; the June 2026 freemium-pivot call scored 0.80
+  (8 of 10 questions). Pure AI-disruption questions went from 7% of questions in FY23-24 to 20% in FY26.
+- De-rating far exceeds the shift in questions: forward P/E (next-day close over the midpoint of the FY non-GAAP EPS
+  guide in force) went from 33x (Sep 2023) to 23x (Dec 2024), 10.7x (Mar 2026), 8.4x (Jun 2026) and 10.3x (Sep 2026);
+  correlation with the fear index is -0.40. A ~70% multiple compression against a fear index that roughly doubled means
+  the price discounts more than call-level worry.
+- Management language moved to usage: usage vocabulary rose from 6-10 per 10k management words (FY23 H1) to 52-54
+  (FY25 Q4 to FY26 Q1) while seat vocabulary stayed at 1-4; usage-to-seat ratio went from 2.5x to ~20x. This is
+  narrative, not dollars: AI-first ARR above $650M is ~2.4% of $27.5B total ARR.
+- Best chart: `ws4_call_nlp/charts/fear_index_vs_forward_pe.png` (also `seat_vs_usage_vocab.png`)
+- Confidence: medium (third-party transcript mirrors, single rater, 8-13 questions per call). Impact: MIXED. The
+  valuation leg SUPPORTS (fear is more than priced); the "fear is exhausted" leg WEAKENS (questions keep rising, and the
+  stock fell the next day after 8 of 10 calls from March 2024 to June 2026, median -7.2%).
 
 ## WS5: search interest and competitor benchmarks
 
@@ -120,7 +139,10 @@ guide midpoint $24.475 gives ~9.9x. Nine-month FY26 operating cash flow $7,646M 
 
 ## What completed, what failed
 
-- Completed: WS1, WS2, WS3, WS5, WS6, workbook (Inputs, PriceVolume, SeatCompression, TaskExposure, Trends_Competitors,
+- Completed: WS1-WS6, workbook (Inputs, PriceVolume, SeatCompression, TaskExposure, CallNLP, Trends_Competitors,
   Sources), this summary, memo_snippets.md.
-- Degraded: WS4 (see section). Google Trends (manual kit). Wayback price snapshots (replaced by help-article and news
-  citations). All primary pages read via search snippets.
+- Degraded: WS4 for two calls (FY25 Q2, FY26 Q3: snippet reconstruction only). Google Trends (manual export kit only).
+  Wayback price snapshots (replaced by Adobe help-article and news citations). All SEC/BLS/IR pages read via search
+  snippets, except BLS OEWS national files and 13 transcripts, which came from GitHub mirrors.
+- Not done: no channel-check responses collected (kit only); no Creative vs Document Cloud split for FY25 (Adobe stopped
+  disclosing it); no realized-price or subscriber-count data exists publicly.
