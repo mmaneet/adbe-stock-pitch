@@ -1,0 +1,34 @@
+scenario,scenario_share,group,event,effective,list_uplift_pct,rel_exposure,effective_share_of_group_rev_pct,phase_in,verified,note,contrib_pts_FY25Q1,contrib_pts_FY25Q2,contrib_pts_FY25Q3,contrib_pts_FY25Q4,contrib_pts_FY26Q1,contrib_pts_FY26Q2,contrib_pts_FY26Q3
+low_10pct,0.1,CMP,2022-04 teams/enterprise (+6%),2022-04,6.0,0.4,4.0,annual,True,"Teams All Apps +6.3%, teams single app +5.9%; NA; enterprise amounts n/a",0.0,0.0,0.0,0.0,0.0,0.0,0.0
+low_10pct,0.1,CMP,2023-11 Firefly wave (~+8% blend),2023-11,7.8,1.0,10.0,annual,True,"Indiv All Apps +9.1%, single app +9.5%, teams +5.6-5.9%; 60/40 indiv/teams blend; Americas+Europe",0.58,0.39,0.2,0.02,0.0,0.0,0.0
+low_10pct,0.1,CMP,2024-03 Nov-23 wave APAC/Africa,2024-03,7.8,0.3,3.0,annual,True,"Same structure, smaller regional base",0.21,0.2,0.14,0.08,0.02,0.0,0.0
+low_10pct,0.1,CMP,2025-01 Photography 20GB (+50% / retired),2025-01,50.0,0.08,0.8,annual,True,Small revenue base; many existing avoided via prepaid annual; new-subscriber entry 2x,0.03,0.13,0.23,0.33,0.37,0.27,0.17
+low_10pct,0.1,CMP,2025-06 CC Pro NA (~+14.5% blend),2025-06,14.5,1.0,10.0,annual,True,"Indiv All Apps +16.7%, teams All Apps +11.1%; single app 0%; Standard downgrade -8.3% available; NA only",0.0,0.0,0.24,0.6,0.97,1.33,1.21
+low_10pct,0.1,CMP,2026-06 VIP list increase (+5% assumed),2026-06,5.0,0.3,3.0,annual,True,Schneider: most CC/Acrobat VIP SKUs; 5-22% claimed by secondary source; low end used; ETLAs protected,0.0,0.0,0.0,0.0,0.0,0.0,0.02
+low_10pct,0.1,BPC,2022-08 Acrobat Pro new customers (+33%),2022-08,33.4,0.5,5.0,new24,True,$14.99->$19.99 for new customers; flows in with base turnover,0.42,0.21,0.02,0.0,0.0,0.0,0.0
+low_10pct,0.1,BPC,2023-07 Acrobat Pro existing (+33%),2023-07,33.4,1.0,10.0,annual,True,Existing subscribers repriced at renewal from 2023-07-01,1.39,0.56,0.0,0.0,0.0,0.0,0.0
+low_10pct,0.1,BPC,2026-06 VIP Acrobat Pro teams (+4.3%),2026-06,4.3,0.3,3.0,annual,True,$22.99->$23.99 (Redress); VIP only,0.0,0.0,0.0,0.0,0.0,0.0,0.02
+low_10pct,0.1,BPC,2026-01 Acrobat Standard indiv $12.99->$14.99 (+15%) UNVERIFIED DATE,2026-01,15.4,0.25,2.5,annual,False,"Price level verified, date not; secondary blogs claim 2026-01-15 consumer increase",0.0,0.0,0.0,0.0,0.03,0.13,0.22
+low_10pct,0.1,BPC,2026-04 Acrobat Standard business (+10% ASSUMED),2026-04,10.0,0.3,3.0,annual,False,"Effective date verified (Schneider), magnitude not disclosed",0.0,0.0,0.0,0.0,0.0,0.02,0.1
+base_20pct,0.2,CMP,2022-04 teams/enterprise (+6%),2022-04,6.0,0.4,8.0,annual,True,"Teams All Apps +6.3%, teams single app +5.9%; NA; enterprise amounts n/a",0.0,0.0,0.0,0.0,0.0,0.0,0.0
+base_20pct,0.2,CMP,2023-11 Firefly wave (~+8% blend),2023-11,7.8,1.0,20.0,annual,True,"Indiv All Apps +9.1%, single app +9.5%, teams +5.6-5.9%; 60/40 indiv/teams blend; Americas+Europe",1.17,0.78,0.39,0.04,0.0,0.0,0.0
+base_20pct,0.2,CMP,2024-03 Nov-23 wave APAC/Africa,2024-03,7.8,0.3,6.0,annual,True,"Same structure, smaller regional base",0.43,0.39,0.27,0.16,0.04,0.0,0.0
+base_20pct,0.2,CMP,2025-01 Photography 20GB (+50% / retired),2025-01,50.0,0.08,1.6,annual,True,Small revenue base; many existing avoided via prepaid annual; new-subscriber entry 2x,0.07,0.27,0.47,0.67,0.73,0.53,0.33
+base_20pct,0.2,CMP,2025-06 CC Pro NA (~+14.5% blend),2025-06,14.5,1.0,20.0,annual,True,"Indiv All Apps +16.7%, teams All Apps +11.1%; single app 0%; Standard downgrade -8.3% available; NA only",0.0,0.0,0.48,1.21,1.93,2.66,2.42
+base_20pct,0.2,CMP,2026-06 VIP list increase (+5% assumed),2026-06,5.0,0.3,6.0,annual,True,Schneider: most CC/Acrobat VIP SKUs; 5-22% claimed by secondary source; low end used; ETLAs protected,0.0,0.0,0.0,0.0,0.0,0.0,0.05
+base_20pct,0.2,BPC,2022-08 Acrobat Pro new customers (+33%),2022-08,33.4,0.5,10.0,new24,True,$14.99->$19.99 for new customers; flows in with base turnover,0.84,0.42,0.05,0.0,0.0,0.0,0.0
+base_20pct,0.2,BPC,2023-07 Acrobat Pro existing (+33%),2023-07,33.4,1.0,20.0,annual,True,Existing subscribers repriced at renewal from 2023-07-01,2.78,1.11,0.0,0.0,0.0,0.0,0.0
+base_20pct,0.2,BPC,2026-06 VIP Acrobat Pro teams (+4.3%),2026-06,4.3,0.3,6.0,annual,True,$22.99->$23.99 (Redress); VIP only,0.0,0.0,0.0,0.0,0.0,0.0,0.04
+base_20pct,0.2,BPC,2026-01 Acrobat Standard indiv $12.99->$14.99 (+15%) UNVERIFIED DATE,2026-01,15.4,0.25,5.0,annual,False,"Price level verified, date not; secondary blogs claim 2026-01-15 consumer increase",0.0,0.0,0.0,0.0,0.06,0.26,0.45
+base_20pct,0.2,BPC,2026-04 Acrobat Standard business (+10% ASSUMED),2026-04,10.0,0.3,6.0,annual,False,"Effective date verified (Schneider), magnitude not disclosed",0.0,0.0,0.0,0.0,0.0,0.05,0.2
+high_30pct,0.3,CMP,2022-04 teams/enterprise (+6%),2022-04,6.0,0.4,12.0,annual,True,"Teams All Apps +6.3%, teams single app +5.9%; NA; enterprise amounts n/a",0.0,0.0,0.0,0.0,0.0,0.0,0.0
+high_30pct,0.3,CMP,2023-11 Firefly wave (~+8% blend),2023-11,7.8,1.0,30.0,annual,True,"Indiv All Apps +9.1%, single app +9.5%, teams +5.6-5.9%; 60/40 indiv/teams blend; Americas+Europe",1.76,1.17,0.58,0.07,0.0,0.0,0.0
+high_30pct,0.3,CMP,2024-03 Nov-23 wave APAC/Africa,2024-03,7.8,0.3,9.0,annual,True,"Same structure, smaller regional base",0.64,0.58,0.41,0.23,0.06,0.0,0.0
+high_30pct,0.3,CMP,2025-01 Photography 20GB (+50% / retired),2025-01,50.0,0.08,2.4,annual,True,Small revenue base; many existing avoided via prepaid annual; new-subscriber entry 2x,0.1,0.4,0.7,1.0,1.1,0.8,0.5
+high_30pct,0.3,CMP,2025-06 CC Pro NA (~+14.5% blend),2025-06,14.5,1.0,30.0,annual,True,"Indiv All Apps +16.7%, teams All Apps +11.1%; single app 0%; Standard downgrade -8.3% available; NA only",0.0,0.0,0.72,1.81,2.9,3.99,3.62
+high_30pct,0.3,CMP,2026-06 VIP list increase (+5% assumed),2026-06,5.0,0.3,9.0,annual,True,Schneider: most CC/Acrobat VIP SKUs; 5-22% claimed by secondary source; low end used; ETLAs protected,0.0,0.0,0.0,0.0,0.0,0.0,0.08
+high_30pct,0.3,BPC,2022-08 Acrobat Pro new customers (+33%),2022-08,33.4,0.5,15.0,new24,True,$14.99->$19.99 for new customers; flows in with base turnover,1.25,0.63,0.07,0.0,0.0,0.0,0.0
+high_30pct,0.3,BPC,2023-07 Acrobat Pro existing (+33%),2023-07,33.4,1.0,30.0,annual,True,Existing subscribers repriced at renewal from 2023-07-01,4.18,1.67,0.0,0.0,0.0,0.0,0.0
+high_30pct,0.3,BPC,2026-06 VIP Acrobat Pro teams (+4.3%),2026-06,4.3,0.3,9.0,annual,True,$22.99->$23.99 (Redress); VIP only,0.0,0.0,0.0,0.0,0.0,0.0,0.06
+high_30pct,0.3,BPC,2026-01 Acrobat Standard indiv $12.99->$14.99 (+15%) UNVERIFIED DATE,2026-01,15.4,0.25,7.5,annual,False,"Price level verified, date not; secondary blogs claim 2026-01-15 consumer increase",0.0,0.0,0.0,0.0,0.1,0.38,0.67
+high_30pct,0.3,BPC,2026-04 Acrobat Standard business (+10% ASSUMED),2026-04,10.0,0.3,9.0,annual,False,"Effective date verified (Schneider), magnitude not disclosed",0.0,0.0,0.0,0.0,0.0,0.08,0.3
