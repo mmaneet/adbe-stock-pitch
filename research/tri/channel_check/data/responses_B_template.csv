@@ -1,0 +1,3 @@
+respondent_id,date,role,company_type,size_band,q1,q2,q3,q4,q5,verbatim,interviewer,notes
+EXAMPLE_B001,2026-10-15,freelance graphic designer,freelance,1,No,Yes,No,Yes,Yes,"EXAMPLE, NOT REAL: ""Every client sends a PSD or an INDD; I cannot not have it.""",interviewer_name,Example row; delete before analysis. Uses generative fill weekly; on the full Creative Cloud plan.
+EXAMPLE_B002,2026-10-15,design student (3rd year),student,1,Yes,No,Yes,No,No,"EXAMPLE, NOT REAL: ""Downgraded to Photography plan; Canva and ChatGPT cover the rest.""",interviewer_name,Example row; delete before analysis. Student discount expiring; expects to drop at renewal.

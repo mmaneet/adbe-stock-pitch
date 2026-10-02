@@ -1,0 +1,3 @@
+respondent_id,date,role,company_type,size_band,q1,q2,q3,q4,q5,q2_pct_change,q6_headcount_pct,verbatim,interviewer,notes
+EXAMPLE_A001,2026-10-14,in-house creative-ops lead,mid-market retailer,100-999,No,Yes,Yes,No,Yes,40,0,"EXAMPLE, NOT REAL: ""Same six people, roughly twice the ad variants per launch.""",interviewer_name,Example row; delete before analysis. Firefly credits on marketing budget; Canva used only for sales decks.
+EXAMPLE_A002,2026-10-16,agency producer,agency,100-999,Yes,Yes,No,Yes,No,25,-15,"EXAMPLE, NOT REAL: ""Juniors never opened InDesign, so we pulled their seats.""",interviewer_name,Example row; delete before analysis. Concept images in Midjourney; Adobe still the finishing step.
