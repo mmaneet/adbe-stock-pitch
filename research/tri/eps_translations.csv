@@ -1,0 +1,21 @@
+id,item,scenario,arr_delta_musd,source_ref,note
+C1-a,Individual Creative Cloud tier (base $6.25B = 23% of ARR) shrinks,-5%/yr,-313,c1_mix/data/eps_at_risk.csv,base case individual = 50% of Creative ARR; Adobe does not disclose the split
+C1-b,Individual Creative Cloud tier shrinks,-10%/yr,-625,c1_mix/data/eps_at_risk.csv,
+C1-c,Individual Creative Cloud tier shrinks,-20%/yr,-1250,c1_mix/data/eps_at_risk.csv,
+C1-d,Individual tier at 60% of Creative ARR ($7.5B) shrinks,-10%/yr,-750,c1_mix/data/eps_at_risk.csv,high-exposure sensitivity
+C3-a,Subscription gross margin -1pt on ~$25.8B FY26 subscription revenue (ARR-equivalent at 45% margin),-1pt GM,-573,c3_economics/data/eps_ai_cost_sensitivity.csv,-$258M operating income = -$0.54 EPS; entered as ARR-equivalent (-258/0.45) so the bridge constant applies
+C3-b,Observed Q3 FY26 subscription GM -0.81pt YoY annualised,observed,-464,c3_economics/data/eps_ai_cost_sensitivity.csv,-$209M operating income = -$0.44 EPS
+C3-c,AI-first ARR net adds (Q3 FY25 >$250M to Q3 FY26 >$650M; lower bounds),+$400M/yr,400,c3_economics/data/ai_first_arr_series.csv,offsets ~0.7pt of subscription GM
+C4-a,Creative freemium MAU 100M -> 150M at $8 AI-first ARR per incremental MAU (descriptive ratio),+50M MAU,400,c4_users/data/mau_to_arr_ratio.csv,ratio = (650-250)/(100-50); NOT causal
+C4-b,Creative freemium MAU 100M -> 200M at $8/MAU,+100M MAU,800,c4_users/data/mau_to_arr_ratio.csv,
+CON-1a,Seat compression: 3% of est. $8.5B teams/enterprise Creative Cloud ARR,-3% seats,-255,concessions/data/concessions_eps.csv,basis ESTIMATE
+CON-1b,Seat compression: 5% of teams/enterprise Creative Cloud ARR,-5% seats,-425,concessions/data/concessions_eps.csv,
+CON-2a,Adobe Stock erosion on ~$450M book,-10%,-45,concessions/data/concessions_eps.csv,current implied decline only ~4%
+CON-2b,Adobe Stock erosion,-20%,-90,concessions/data/concessions_eps.csv,Shutterstock content revenue -17% Q2 2026 as the peer analogue
+CON-3a,Individual-subscriber weakness: 3% of est. $7.0B individual CC ARR,-3%,-210,concessions/data/concessions_eps.csv,
+CON-3b,Individual-subscriber weakness,-5%,-350,concessions/data/concessions_eps.csv,
+CON-3c,Management-implied H2 FY26 organic net-new-ARR cut (10.2% target held while Semrush added ~$480M),mgmt-implied,-480,concessions/data/individual_subscriber_quotes.csv,
+CON-sum-base,All three concessions,base sum,-510,concessions/data/concessions_eps.csv,3% seats + 10% Stock + 3% individual
+CON-sum-bear,All three concessions,bear sum,-865,concessions/data/concessions_eps.csv,5% seats + 20% Stock + 5% individual
+NNARR,FY26 organic net new ARR vs FY25 ($2.14B vs $2.63B),-$490M,-490,concessions/data/net_new_arr_fy25_vs_fy26.csv,run-rate shortfall; FY27 consensus $2.34B needs +9% re-acceleration
+C2-a,PENDING Subagent B: enterprise content-stack ARR growth scenarios,8/12/16%,,c2_content/data/eps_content_stack.csv,filled on completion
