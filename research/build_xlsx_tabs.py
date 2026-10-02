@@ -130,10 +130,107 @@ def add_price_volume(wb, ctx):
     autosize(ws, maxw=50)
 def add_seat_compression(wb, ctx):
     read_csv, write_df, hdr, autosize, BLUE, BLACK, BOLD, ROOT = ctx
+    from openpyxl.utils import get_column_letter as gcl
     ws = wb.create_sheet("SeatCompression")
-    ws["A1"] = "WS2: revenue per creative worker / seat compression"; ws["A1"].font = BOLD
-    note(ws, 3, "PENDING: workstream output not yet integrated")
-
+    ws["A1"] = "WS2: revenue per creative worker / seat compression (blue = sourced input; black = formula)"; ws["A1"].font = BOLD
+    note(ws, 2, "MISMATCH: Adobe revenue is GLOBAL (fiscal year ending Nov/Dec); employment is US-only BLS OEWS wage-and-salary (May reference). Indices only, not per-seat dollars.")
+    emp = read_csv("ws2_seat_compression/data/bls_oews_employment_wide.csv")
+    rev = read_csv("ws2_seat_compression/data/adobe_revenue.csv")
+    r = 4
+    if emp is None or rev is None:
+        note(ws, r, "UNAVAILABLE: ws2 data files missing"); return
+    # Block A: employment + revenue by year
+    ws.cell(row=r, column=1, value="A. BLS OEWS national employment (May) and Adobe revenue (USD bn), 2019-2025").font = BOLD; r += 1
+    soc = ["27-1024","27-1011","27-1014","27-4032","27-4021","11-2021","13-1161"]
+    cols = ["year"] + soc + ["creative5_sum (f)","marketing2_sum (f)","DM_rev_bn","creative_rev_bn","total_rev_bn","creative5_idx (f)","DM_rev_idx (f)","DM_rev_per_worker_idx (f)","creative_rev_per_worker_idx (f)"]
+    hdr(ws, r, cols); r += 1
+    first = r
+    rev_by_year = {int(x["fiscal_year"]): x for _, x in rev.iterrows()}
+    for _, rec in emp.iterrows():
+        y = int(rec["year"])
+        ws.cell(row=r, column=1, value=y)
+        for j, s in enumerate(soc):
+            ws.cell(row=r, column=2 + j, value=_num(rec[s])).font = BLUE
+        c5 = 2 + len(soc); m2 = c5 + 1
+        ws.cell(row=r, column=c5, value=f"=SUM(B{r}:F{r})")
+        ws.cell(row=r, column=m2, value=f"=G{r}+H{r}")
+        rr = rev_by_year.get(y, {})
+        for k, col in enumerate(["digital_media_revenue_usd_bn","creative_revenue_usd_bn","total_revenue_usd_bn"]):
+            v = _num(rr.get(col)) if rr is not None and len(rr) else None
+            ws.cell(row=r, column=m2 + 1 + k, value=v).font = BLUE
+        dm = gcl(m2 + 1); cr = gcl(m2 + 2); c5l = gcl(c5)
+        ws.cell(row=r, column=m2 + 4, value=f"={c5l}{r}/{c5l}${first}*100").number_format = "0.0"
+        ws.cell(row=r, column=m2 + 5, value=f"={dm}{r}/{dm}${first}*100").number_format = "0.0"
+        ws.cell(row=r, column=m2 + 6, value=f"=({dm}{r}/{c5l}{r})/({dm}${first}/{c5l}${first})*100").number_format = "0.0"
+        ws.cell(row=r, column=m2 + 7, value=f'=IF({cr}{r}="","",({cr}{r}/{c5l}{r})/({cr}${first}/{c5l}${first})*100)').number_format = "0.0"
+        r += 1
+    last = r - 1
+    dm = gcl(m2 + 1); cr = gcl(m2 + 2); c5l = gcl(c5)
+    r += 1
+    # Block B: achieved CAGRs
+    ws.cell(row=r, column=1, value="B. Achieved revenue-per-US-creative-worker growth (formulas)").font = BOLD; r += 1
+    ws.cell(row=r, column=1, value="DM rev per creative worker CAGR FY19-FY25"); ws.cell(row=r, column=2, value=f"=(({dm}{last}/{c5l}{last})/({dm}{first}/{c5l}{first}))^(1/({last}-{first}))-1").number_format = "0.0%"; cagr_dm = r; r += 1
+    ws.cell(row=r, column=1, value="Creative rev per creative worker CAGR FY19-FY24"); ws.cell(row=r, column=2, value=f"=(({cr}{last-1}/{c5l}{last-1})/({cr}{first}/{c5l}{first}))^(1/({last-1}-{first}))-1").number_format = "0.0%"; r += 1
+    ws.cell(row=r, column=1, value="DM rev per creative worker growth FY24->FY25"); ws.cell(row=r, column=2, value=f"=({dm}{last}/{c5l}{last})/({dm}{last-1}/{c5l}{last-1})-1").number_format = "0.0%"; r += 1
+    ws.cell(row=r, column=1, value="Creative5 employment change May-24 -> May-25"); ws.cell(row=r, column=2, value=f"={c5l}{last}/{c5l}{last-1}-1").number_format = "0.0%"; r += 1
+    ws.cell(row=r, column=1, value="Graphic designers change May-24 -> May-25"); ws.cell(row=r, column=2, value=f"=B{last}/B{last-1}-1").number_format = "0.0%"; r += 2
+    # Block C: scenarios
+    ws.cell(row=r, column=1, value="C. Required per-worker growth to sustain target ARR growth under headcount scenarios (formulas)").font = BOLD; r += 1
+    ws.cell(row=r, column=1, value="Target ARR growth"); ws.cell(row=r, column=2, value=0.10).font = BLUE; ws.cell(row=r, column=2).number_format = "0.0%"; tgt = r; r += 1
+    ws.cell(row=r, column=1, value="Creative5 employment base (May 2025)"); ws.cell(row=r, column=2, value=f"={c5l}{last}"); base = r; r += 1
+    hdr(ws, r, ["scenario","annual headcount growth","emp 2026 (f)","emp 2027 (f)","emp 2028 (f)","required per-worker growth (f)","achieved FY19-25 CAGR","gap (achieved - required)"]); r += 1
+    sc = read_csv("ws2_seat_compression/data/scenarios.csv")
+    rows = [("Flat headcount", 0.0), ("-3%/yr headcount", -0.03), ("-7%/yr headcount", -0.07)]
+    if sc is not None:
+        for _, rec in sc.iterrows():
+            g = _num(rec["annual_emp_growth"])
+            if g is not None and not str(rec["scenario"]).startswith("Required"):
+                rows.append((str(rec["scenario"]), g))
+    for name, g in rows:
+        ws.cell(row=r, column=1, value=name)
+        ws.cell(row=r, column=2, value=g).font = BLUE; ws.cell(row=r, column=2).number_format = "0.00%"
+        for k in range(3):
+            ws.cell(row=r, column=3 + k, value=f"=$B${base}*(1+B{r})^{k+1}").number_format = "#,##0"
+        ws.cell(row=r, column=6, value=f"=(1+$B${tgt})/(1+B{r})-1").number_format = "0.0%"
+        ws.cell(row=r, column=7, value=f"=$B${cagr_dm}").number_format = "0.0%"
+        ws.cell(row=r, column=8, value=f"=G{r}-F{r}").number_format = "0.0%"
+        r += 1
+    r += 1
+    # Block D: agency headcount
+    ag = read_csv("ws2_seat_compression/data/agency_headcount.csv")
+    if ag is not None:
+        ws.cell(row=r, column=1, value="D. Advertising holding-company year-end headcount (blue) with 2019=100 index (formula)").font = BOLD; r += 1
+        piv = ag.pivot_table(index="year", columns="company", values="employees_year_end", aggfunc="first")
+        comps = list(piv.columns)
+        hdr(ws, r, ["year"] + comps + [f"{c} idx (f)" for c in comps]); r += 1
+        f0 = r
+        for y, rec in piv.iterrows():
+            ws.cell(row=r, column=1, value=int(y))
+            for j, cmp in enumerate(comps):
+                ws.cell(row=r, column=2 + j, value=_num(rec[cmp])).font = BLUE
+                col = gcl(2 + j)
+                ws.cell(row=r, column=2 + len(comps) + j, value=f'=IF({col}{r}="","",{col}{r}/{col}${f0}*100)').number_format = "0.0"
+            r += 1
+        r += 1
+    # Block E: Indeed annual averages
+    ind = read_csv("ws2_seat_compression/data/indeed_postings_monthly.csv")
+    if ind is not None:
+        ws.cell(row=r, column=1, value="E. Indeed Hiring Lab US job postings index (Feb-2020 = 100), monthly (blue); latest month and YoY (formula)").font = BOLD; r += 1
+        cols = list(ind.columns)
+        hdr(ws, r, cols); r += 1
+        f0 = r
+        for _, rec in ind.iterrows():
+            ws.cell(row=r, column=1, value=str(rec[cols[0]]))
+            for j, col in enumerate(cols[1:]):
+                ws.cell(row=r, column=2 + j, value=_num(rec[col])).font = BLUE
+            r += 1
+        l0 = r - 1
+        ws.cell(row=r, column=1, value="Latest YoY % (f)")
+        for j, col in enumerate(cols[1:]):
+            cl = gcl(2 + j)
+            ws.cell(row=r, column=2 + j, value=f"={cl}{l0}/{cl}{l0-12}-1").number_format = "0.0%"
+        r += 1
+    autosize(ws, maxw=40)
 def add_task_exposure(wb, ctx):
     read_csv, write_df, hdr, autosize, BLUE, BLACK, BOLD, ROOT = ctx
     ws = wb.create_sheet("TaskExposure")
