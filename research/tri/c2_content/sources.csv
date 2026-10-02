@@ -1,0 +1,57 @@
+claim,value,source_type,url,date_accessed,verified,notes
+Adobe AI-first ending ARR Q3 FY26,>$650m; >150% YoY,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q3fy26-transcript.pdf,2026-10-02,Y,lower bound; includes consumer Firefly/Acrobat AI Assistant
+Adobe AI-first ending ARR Q2 FY26,>$500m; ~3x YoY,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q2fy26-transcript.pdf,2026-10-02,Y,lower bound
+Adobe AI-first ARR tripled YoY Q1 FY26,>3x YoY,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q1fy26-transcript.pdf,2026-10-02,Y,
+Adobe AI-first ending ARR Q3 FY25,>$250m (target met early),company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q3fy25-transcript.pdf,2026-10-02,Y,
+Adobe AI-first book of business Q1 FY25,>$125m,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q1fy25-transcript.pdf,2026-10-02,Y,
+Adobe CXO (enterprise) AI-first ARR growth Q2 FY26,4x YoY,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q2fy26-transcript.pdf,2026-10-02,Y,
+Adobe GenStudio ARR growth Q2 FY26,>25% YoY,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q2fy26-transcript.pdf,2026-10-02,Y,floor stepped down from >30% (Q1 FY26) to >20% (Q3 FY26)
+Adobe GenStudio ARR growth Q1 FY26,>30% YoY,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q1fy26-transcript.pdf,2026-10-02,Y,
+Adobe GenStudio ARR growth Q3 FY26,>20% YoY,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q3fy26-transcript.pdf,2026-10-02,Y,
+Adobe GenStudio solution ARR >$1bn growing >25%,>$1bn; >25% YoY,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q3fy25-transcript.pdf,2026-10-02,Y,Workfront+Frame+AEM Assets+Firefly Services+GSPM
+Adobe Firefly Services + custom models ARR 4x YoY,4x YoY,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q2fy25-transcript.pdf,2026-10-02,Y,
+Adobe Firefly Services >100 new deals Q4 FY25,>100,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q4fy25-transcript.pdf,2026-10-02,Y,
+Adobe Firefly Enterprise new customers +50% YoY Q1 FY26,+50% YoY,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q1fy26-transcript.pdf,2026-10-02,Y,
+Adobe custom models since launch,>1400 (Q1 FY25) -> >2500 (Q1 FY26),company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q1fy26-transcript.pdf,2026-10-02,Y,
+Adobe video generative actions >8x YoY Q1 FY26,>8x YoY; audio 2x,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q1fy26-transcript.pdf,2026-10-02,Y,
+Adobe "asset generations 4x",UNAVAILABLE,company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q1fy26-transcript.pdf,2026-10-02,N,not found in FY25Q1-FY26Q3 transcripts or 8-K releases
+Adobe cumulative Firefly generations,>20bn (Q1 FY25); >24bn (Q2 FY25); 29bn (Q3 FY25),company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q3fy25-transcript.pdf,2026-10-02,Y,
+Adobe generative credit consumption,3x QoQ (Q4 FY25); >45% QoQ (Q1 FY26),company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q4fy25-transcript.pdf,2026-10-02,Y,
+Adobe Firefly ARR QoQ growth,75% (Q1 FY26); ~50% (Q2 FY26); 40% (Q3 FY26),company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q3fy26-transcript.pdf,2026-10-02,Y,Q3 FY26 definition = App + credit packs only
+Adobe Firefly ending ARR,>$250m (Q1 FY26); ~$300m (Q2 FY26),company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q2fy26-transcript.pdf,2026-10-02,Y,
+Adobe AEP & Apps growth,~50% (Q1 FY25) -> >40% (Q2-Q3 FY25) -> >30% (Q4 FY25-Q2 FY26) -> >20% (Q3 FY26),company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q3fy26-transcript.pdf,2026-10-02,Y,mix of subscription-revenue and ARR statements
+Adobe AEP AI Assistant adoption,70% of AEP customers (Q3 FY25-Q1 FY26); >80% AEP+AEM (Q2 FY26),company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q2fy26-transcript.pdf,2026-10-02,Y,
+Adobe Frame assets under management,2x YoY (Q1 FY26),company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q1fy26-transcript.pdf,2026-10-02,Y,
+Adobe Digital Experience subscription revenue FY24 by quarter,$1.16/1.20/1.23/1.27bn (+12/13/12/13%),company,https://www.sec.gov/Archives/edgar/data/796343/000079634324000250/adbeex991q424.htm,2026-10-02,Y,8-K EX-99.1 releases
+Adobe Digital Experience subscription revenue FY25 by quarter,$1.297/1.334/1.368/1.41bn (+11% each); FY $5.409bn,company,https://www.sec.gov/Archives/edgar/data/796343/000079634326000003/adbe-20251128.htm,2026-10-02,Y,10-Q segment notes + 10-K
+Adobe single reportable segment from Q1 FY26 (DX not disclosed),n/a,company,https://www.sec.gov/Archives/edgar/data/796343/000079634326000056/adbe-20260227.htm,2026-10-02,Y,falsifier series discontinued
+Adobe Creative & Marketing Professionals subscription revenue FY26,$4.39/4.54/4.65bn (+12/13/13%),company,https://www.adobe.com/cc-shared/assets/investor-relations/pdfs/adbe-q3fy26-transcript.pdf,2026-10-02,Y,proxy only; includes Creative Cloud and Semrush
+Adobe Semrush ARR acquired,~$480m,company,https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/adbeex991q226.htm,2026-10-02,Y,
+Meta advertisers using >=1 gen AI ad feature (Q2 2024),>1m (past month),peer,https://s21.q4cdn.com/399680738/files/doc_financials/2024/q2/META-Q2-2024-Earnings-Call-Transcript.pdf,2026-10-02,Y,
+Meta advertisers using gen AI tools (Q3 2024),>1m; >15m ads in last month,peer,https://www.fool.com/earnings/call-transcripts/2024/10/30/meta-platforms-meta-q3-2024-earnings-call-transcri/,2026-10-02,Y,
+Meta advertisers using >=1 gen AI ad creative tool (Q4 2024),>4m (from 1m six months earlier),peer,https://www.fool.com/earnings/call-transcripts/2025/01/29/meta-platforms-meta-q4-2024-earnings-call-transcri/,2026-10-02,Y,
+Meta advertisers using AI creative tools (Q1 2025),+30% QoQ,peer,https://s21.q4cdn.com/399680738/files/doc_financials/2025/q1/Transcripts/META-Q1-2025-Earnings-Call-Transcript-1.pdf,2026-10-02,Y,
+Meta advertisers using video generation features (Q2 2025),~2m,peer,https://s21.q4cdn.com/399680738/files/doc_financials/2025/q2/META-Q2-2025-Earnings-Call-Transcript.pdf,2026-10-02,Y,
+Meta advertisers using video generation (Q3 2025),+20% QoQ; $60bn automated-solutions run-rate,peer,https://www.fool.com/earnings/call-transcripts/2025/10/29/meta-platforms-meta-q3-2025-earnings-call-transcript/,2026-10-02,Y,
+Meta advertisers using >=1 GenAI ad creative tool (Q1 2026),>8m,peer,https://www.fool.com/earnings/call-transcripts/2026/04/29/meta-meta-q1-2026-earnings-call-transcript/,2026-10-02,Y,
+Meta small businesses using >=1 AI ad creative tool (Q2 2026),>9m; Advantage+ run-rate >$75bn,peer,https://www.fool.com/earnings/call-transcripts/2026/08/07/meta-meta-q2-2026-earnings-call-transcript/,2026-10-02,Y,
+Google advertisers using AI asset generation tools (Q2 2025),>2m; +50% YoY,peer,https://www.fool.com/earnings/call-transcripts/2025/07/23/alphabet-googl-q2-2025-earnings-call-transcript/,2026-10-02,Y,
+Google creative assets generated via AI Max/PMax (Q4 2025),~70m in the quarter,peer,https://www.fool.com/earnings/call-transcripts/2026/02/04/alphabet-googl-q4-2025-earnings-call-transcript/,2026-10-02,Y,
+Google share of Search customers using AI Max/PMax (Q1 2026),>30%,peer,https://www.fool.com/earnings/call-transcripts/2026/04/29/alphabet-googl-q1-2026-earnings-call-transcript/,2026-10-02,Y,
+Google advertisers adopted AI Max (Q2 2026),0.5m; +15% conversions/value,peer,https://s206.q4cdn.com/479360582/files/doc_events/2026/Jul/22/2026_Q2_Earnings_Transcript.pdf,2026-10-02,Y,
+Google PMax asset generation ad-strength effect (Q1 2024),63% more likely good/excellent,peer,https://www.fool.com/earnings/call-transcripts/2024/04/25/alphabet-googl-q1-2024-earnings-call-transcript/,2026-10-02,Y,
+WPP/Hogarth AI production: asset output and time,2.5x assets; 50-70% time saved; flat headcount/hours,industry,https://business.google.com/us/think/ai-excellence/ai-acceleration-creative-timeline-production-cycle/,2026-10-02,Y,WPP internal data 2025 in Google-hosted article; not audited
+WPP Production launch,~10000 staff; 40+ cities; Hogarth retired,peer,https://www.wpp.com/en/news/2026/01/wpp-launches-wpp-production-empowering-clients-to-reimagine-growth-with-world-class-content,2026-10-02,Y,
+WPP Open adoption and AI spend 2025,71k users (~90% client-facing vs 33%); ~GBP300m AI/data cash investment; headcount -8.7%,peer,https://cdn.wpp.com/raw/upload/v1778673483/wpp/project/wpp/files/investors/2026/annual-report/wpp_annual_report_2025.pdf,2026-10-02,Y,
+WPP H1 2026 average headcount,97k vs 106k,peer,https://cdn.wpp.com/image/upload/v1786096257/Interim-Results-2026-Webcast-and-Conference-Call-Transcript.pdf,2026-10-02,Y,
+Publicis production growth,"growing double digits" (Oct 2025),peer,https://www.publicisgroupe.com/en/news/press-releases/deepti-velury-named-ceo-publicis-global-production-as-group-further-accelerates-on-intelligent-creativity,2026-10-02,Y,
+Publicis Intelligent Creativity organic growth,MSD Q4 2025 (fueled by Production); LSD Q1 and Q2 2026,peer,https://www.globenewswire.com/news-release/2026/07/16/3328221/0/en/publicis-groupe-first-half-2026-results.html,2026-10-02,Y,Q1 2026 LSD from search snippet (verified N)
+Omnicom Q2 2026 core organic growth; content automation inside Integrated Media,+6.1%; no asset-volume disclosure,peer,https://s201.q4cdn.com/282904488/files/doc_financials/2026/q2/OMC-2Q26-Transcript-07-28-26.pdf,2026-10-02,Y,
+Agency headcount series 2019-2025,WPP 98655 (2025); Publicis ~114000; Omnicom+IPG ~120000,peer,research/ws2_seat_compression/data/agency_headcount.csv,2026-10-02,Y,reused from ws2 (snippet-sourced there)
+BLS OEWS graphic designers employment May 2025,197830,primary,https://www.bls.gov/oes/special-requests/oesm25nat.zip,2026-10-02,Y,matches ws2
+BLS OEWS graphic designers employment May 2024,214260,primary,https://www.bls.gov/oes/special-requests/oesm24nat.zip,2026-10-02,Y,matches ws2
+BLS OEWS graphic designers employment May 2023,212720,primary,https://www.bls.gov/oes/2023/may/oes271024.htm,2026-10-02,Y,matches ws2
+Revenue per US creative worker index FY25 (FY19=100),240.7; CAGR 15.8%,alt,research/ws2_seat_compression/data/rev_per_worker_index.csv,2026-10-02,Y,Adobe global DM revenue / US OEWS creative5 employment
+EPS per $100m ARR,$0.0946,alt,research/tri/c2_content/data/eps_content_stack.csv,2026-10-02,Y,45% margin x 0.82 / 390m shares
+Content-stack EPS scenarios (8/12/16% on $5.41bn),$0.41 / $0.61 / $0.82,alt,research/tri/c2_content/data/eps_content_stack.csv,2026-10-02,Y,one-year incremental ARR $433m/$649m/$865m
+Meta Ad Library brand counts,UNAVAILABLE (manual protocol only),alt,https://www.facebook.com/ads/library,2026-10-02,N,see data/meta_ad_library_PROTOCOL.md
