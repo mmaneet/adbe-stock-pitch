@@ -1,0 +1,14 @@
+concession,case,basis_arr_m,pct_change,arr_impact_m,eps_impact,eps_impact_75pct_decremental,pct_of_fy27_consensus_eps,times_covered_by_ai_first_400m,note
+Conversion reference,per $100M ARR,100.0,-,100.0,0.095,0.158,0.35,4.0,$100M x 45% incremental margin x (1-18% tax) / 390M diluted shares = $0.095; at 75% decremental (lost subscription revenue sheds little cost) = $0.158
+Seat compression (teams/enterprise CC),base,8500.0,-3%,255.0,0.241,0.402,0.88,1.57,ESTIMATE basis $8.5B T/E CC ARR (midpoint $8-9B; exposure_tiers.csv not available); 3% seat loss
+Seat compression (teams/enterprise CC),bear,8500.0,-5%,425.0,0.402,0.67,1.46,0.94,5% seat loss
+Seat compression (teams/enterprise CC),BLS-tracking,8500.0,-4.85%,412.2,0.39,0.65,1.42,0.97,seats track May-24->May-25 US creative5 employment (-4.85%) one-for-one; upper bound (Adobe is global; WS2 shows revenue/worker decoupling)
+Adobe Stock erosion,current implied,450.0,-4%,18.0,0.017,0.028,0.06,22.22,Q1 FY26: ex-Stock growth 11.2% vs 10.9% => Stock ARR ~-$20M YoY (range -2% to -8% with rounding)
+Adobe Stock erosion,base,450.0,-10%,45.0,0.043,0.071,0.16,8.89,"10% decline on ~$450M book; peers: Getty creative -4.3% cc Q2-26, Shutterstock content -17% Q2-26"
+Adobe Stock erosion,bear,450.0,-20%,90.0,0.085,0.142,0.31,4.44,20% decline ~ Shutterstock Q2-26 content revenue (-17%) + subscriber (-11%) trajectory
+Individual-subscriber weakness (individual CC),base,7000.0,-3%,210.0,0.199,0.331,0.72,1.9,ESTIMATE basis $7.0B individual CC ARR; 3% ARR loss
+Individual-subscriber weakness (individual CC),bear,7000.0,-5%,350.0,0.331,0.552,1.2,1.14,5% ARR loss
+Individual-subscriber weakness (individual CC),mgmt-implied H2 FY26 cut,7000.0,-6.9%,480.0,0.454,0.757,1.65,0.83,"~$480M organic FY26 net-new-ARR cut (10.2% target held while Semrush $480M added); 'maybe half' deferred price optimizations, half freemium routing; deferral not churn"
+All three concessions,base (sum),15950.0,-,510.0,0.483,0.804,1.76,0.78,3% seats + 10% Stock + 3% individual
+All three concessions,bear (sum),15950.0,-,865.0,0.818,1.364,2.97,0.46,5% seats + 20% Stock + 5% individual
+AI-first net adds (offset),lower bound,400.0,+,400.0,0.378,0.631,1.37,1.0,"AI-first ending ARR >$650M at Q3 FY26, +150% YoY => >=$390M YoY adds; >$500M at Q2 FY26 => +$150M in one quarter (annualized ~$600M); sign is positive"

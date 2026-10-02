@@ -1,0 +1,61 @@
+brand,sector,date,active_ads,distinct_creatives_first50,pct_with_multiple_versions,notes,collector
+Tide,CPG,2026-10-01,430,35,73,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Dove,CPG,2026-10-01,466,40,33,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Coca-Cola,CPG,2026-10-01,352,23,72,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Pepsi,CPG,2026-10-01,281,29,69,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Nestle (page: ),CPG,2026-10-01,471,18,48,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Walmart,Retail,2026-10-01,2204,25,36,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Target,Retail,2026-10-01,2132,44,46,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Amazon,Retail,2026-10-01,2506,32,53,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Nike,Retail,2026-10-01,3243,39,67,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Toyota USA,Auto,2026-10-01,965,25,79,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Ford Motor Company,Auto,2026-10-01,746,40,29,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Chevrolet,Auto,2026-10-01,960,18,22,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Hyundai USA,Auto,2026-10-01,649,19,50,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Marriott Bonvoy,Travel,2026-10-01,685,39,75,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Hilton,Travel,2026-10-01,754,28,50,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Expedia,Travel,2026-10-01,698,26,34,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Booking.com,Travel,2026-10-01,494,17,31,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Airbnb,Travel,2026-10-01,780,41,32,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+McDonald's,QSR,2026-10-01,276,29,20,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Starbucks,QSR,2026-10-01,359,34,29,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Tide,CPG,2026-11-02,371,43,72,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Dove,CPG,2026-11-02,434,43,70,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Coca-Cola,CPG,2026-11-02,468,16,64,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Pepsi,CPG,2026-11-02,326,22,52,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Nestle (page: ),CPG,2026-11-02,434,33,72,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Walmart,Retail,2026-11-02,2475,34,55,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Target,Retail,2026-11-02,1985,34,43,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Amazon,Retail,2026-11-02,2413,21,29,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Nike,Retail,2026-11-02,3212,27,42,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Toyota USA,Auto,2026-11-02,1251,26,55,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Ford Motor Company,Auto,2026-11-02,1033,28,58,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Chevrolet,Auto,2026-11-02,1074,43,29,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Hyundai USA,Auto,2026-11-02,937,25,34,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Marriott Bonvoy,Travel,2026-11-02,711,39,25,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Hilton,Travel,2026-11-02,968,43,32,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Expedia,Travel,2026-11-02,833,15,38,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Booking.com,Travel,2026-11-02,925,17,59,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Airbnb,Travel,2026-11-02,588,40,70,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+McDonald's,QSR,2026-11-02,410,33,74,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Starbucks,QSR,2026-11-02,337,23,28,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Tide,CPG,2026-12-01,378,37,75,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Dove,CPG,2026-12-01,478,16,30,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Coca-Cola,CPG,2026-12-01,570,44,58,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Pepsi,CPG,2026-12-01,483,16,42,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Nestle (page: ),CPG,2026-12-01,439,21,34,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Walmart,Retail,2026-12-01,2096,44,72,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Target,Retail,2026-12-01,2843,37,52,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Amazon,Retail,2026-12-01,2590,28,65,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Nike,Retail,2026-12-01,2073,36,42,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Toyota USA,Auto,2026-12-01,749,42,27,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Ford Motor Company,Auto,2026-12-01,1336,18,59,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Chevrolet,Auto,2026-12-01,999,17,51,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Hyundai USA,Auto,2026-12-01,1277,35,40,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Marriott Bonvoy,Travel,2026-12-01,855,23,61,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Hilton,Travel,2026-12-01,741,42,51,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Expedia,Travel,2026-12-01,941,38,74,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Booking.com,Travel,2026-12-01,641,27,76,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Airbnb,Travel,2026-12-01,570,32,65,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+McDonald's,QSR,2026-12-01,412,34,28,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN
+Starbucks,QSR,2026-12-01,331,40,68,SYNTHETIC EXAMPLE - random numbers for loader test only,SYN

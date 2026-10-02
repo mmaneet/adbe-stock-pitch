@@ -1,0 +1,10 @@
+scenario,delta_operating_income_usd_m,delta_eps_usd,pct_of_fy26_eps_guide_24_475,notes
+subscription GM -1pt,-258.0,-0.542,-2.216,FY26 subscription revenue ~$25.8B (9M $19.196B actual + Q4 implied ~$6.6B); x(1-18% non-GAAP tax)/390M diluted shares (Q3 FY26 actual 395M; Q4 guide 389M)
+subscription GM -2pt,-516.0,-1.085,-4.433,FY26 subscription revenue ~$25.8B (9M $19.196B actual + Q4 implied ~$6.6B); x(1-18% non-GAAP tax)/390M diluted shares (Q3 FY26 actual 395M; Q4 guide 389M)
+subscription GM -3pt,-774.0,-1.627,-6.649,FY26 subscription revenue ~$25.8B (9M $19.196B actual + Q4 implied ~$6.6B); x(1-18% non-GAAP tax)/390M diluted shares (Q3 FY26 actual 395M; Q4 guide 389M)
+AI-first ARR +$100M (full run-rate),45.0,0.095,0.387,45% incremental operating margin x (1-18%) / 390M; ARR converts to revenue with a lag (~2-4 quarters)
+AI-first ARR +$200M (full run-rate),90.0,0.189,0.773,45% incremental operating margin x (1-18%) / 390M; ARR converts to revenue with a lag (~2-4 quarters)
+AI-first ARR +$400M (full run-rate),180.0,0.378,1.546,45% incremental operating margin x (1-18%) / 390M; ARR converts to revenue with a lag (~2-4 quarters)
+AI-first ARR +$573M (full run-rate),257.85,0.542,2.215,45% incremental operating margin x (1-18%) / 390M; ARR converts to revenue with a lag (~2-4 quarters)
+OBSERVED Q3 FY26: sub GM -0.81pt YoY,-208.98,-0.439,-1.795,Annualised on FY26 sub revenue; Q3 FY26 sub GM 90.38% vs 91.19%
+OBSERVED AI-first ARR +$400M (Q3 FY25 >$250M to Q3 FY26 >$650M),180.0,0.378,1.546,"Lower bounds; both are "">"" disclosures"

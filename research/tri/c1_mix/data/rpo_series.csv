@@ -1,0 +1,12 @@
+fiscal_quarter,quarter_end,rpo_b,crpo_pct_next_12m,crpo_b_derived,rpo_yoy_pct,crpo_yoy_pct_derived,source_url,verified,notes
+FY24Q1,2024-03-01,17.58,68,11.95,16,,https://www.sec.gov/Archives/edgar/data/796343/000079634324000057/adbeex991q124.htm,Y,"RPO from 8-K Ex.99.1 (press release headline: RPO +16% YoY); cRPO % from Adobe IR datasheet Sept 10 2026"
+FY24Q2,2024-05-31,17.86,68,12.14,,,https://www.sec.gov/Archives/edgar/data/796343/000079634324000140/adbeex991q224.htm,Y,"cRPO % from IR datasheet"
+FY24Q3,2024-08-30,18.14,69,12.52,15,,https://www.sec.gov/Archives/edgar/data/796343/000079634324000200/adbeex991q324.htm,Y,"press release: RPO +15% YoY"
+FY24Q4,2024-11-29,19.96,67,13.37,16,,https://www.sec.gov/Archives/edgar/data/796343/000079634324000250/adbeex991q424.htm,Y,"press release: record RPO +16% YoY"
+FY25Q1,2025-02-28,19.69,67,13.19,12.0,10.4,https://www.sec.gov/Archives/edgar/data/796343/000079634325000052/adbeex991q125.htm,Y,"press release states RPO 19.69B and cRPO 67%"
+FY25Q2,2025-05-30,19.69,67,13.19,10.2,8.6,https://www.sec.gov/Archives/edgar/data/796343/000079634325000064/adbeex991q225.htm,Y,"press release states RPO 19.69B (same figure as Q1; confirmed in IR datasheet) and cRPO 67%"
+FY25Q3,2025-08-29,20.44,67,13.69,12.7,9.4,https://www.sec.gov/Archives/edgar/data/796343/000079634325000102/adbeex991q325.htm,Y,"press release headline: RPO surpasses $20B, +13% YoY"
+FY25Q4,2025-11-28,22.52,65,14.64,12.8,9.5,https://www.sec.gov/Archives/edgar/data/796343/000079634325000135/adbeex991q425.htm,Y,"10-K FY25: ~65% of RPO (ex ~4% enterprise committed funds) recognized in next 12 months"
+FY26Q1,2026-02-27,22.22,67,14.89,12.8,12.9,https://www.sec.gov/Archives/edgar/data/796343/000079634326000048/adbeex991q126.htm,Y,"press release: RPO +13% YoY"
+FY26Q2,2026-05-29,22.27,67,14.92,13.1,13.1,https://www.sec.gov/Archives/edgar/data/796343/000079634326000109/adbeex991q226.htm,Y,"includes Semrush RPO from Apr 28 2026"
+FY26Q3,2026-08-28,22.16,67,14.85,8.4,8.4,https://www.sec.gov/Archives/edgar/data/796343/000079634326000156/adbe-20260828.htm,Y,"10-Q Q3 FY26: RPO 22.16B (+8% vs 20.44B); ~3% enterprise committed funds; ~67% recognized in next 12 months; RPO DOWN sequentially two quarters (22.27 -> 22.16)"

@@ -1,0 +1,5 @@
+period,comparison,total_cost_of_subscription_change_pct,hosting_and_data_center_contribution_pts,royalty_contribution_pts,compensation_contribution_pts,other_components,source
+FY25,FY2025 vs FY2024,13,8,,2,Loss contingency reversal +2; various +1,10-K FY25 MD&A
+FY26Q1,Q1 FY26 vs Q1 FY25,10,14,1.0,3,Amortization of intangibles -8,10-Q Q1 FY26 MD&A
+FY26Q2,Q2 FY26 vs Q2 FY25,16,16,1.0,5,Amortization of intangibles -6,10-Q Q2 FY26 MD&A
+FY26Q3,Q3 FY26 vs Q3 FY25,24,22,,5,Amortization of intangibles -5; various +2,10-Q Q3 FY26 MD&A

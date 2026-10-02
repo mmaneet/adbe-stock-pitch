@@ -1,0 +1,12 @@
+quarter,ending_total_arr_as_reported_bn,ending_total_arr_dec2025_rates_bn,net_new_as_reported_bn,net_new_dec2025_rates_bn,semrush_contribution_bn,organic_net_new_dec2025_rates_bn,organic_net_new_yoy_pct,digital_media_arr_end_bn,digital_media_net_new_bn,estimate_flag,note
+FY25Q1,23.06,23.5,0.45,0.47,0.0,0.47,,17.63,0.41,Q1 FY25 Dec-2025-basis net new is an ESTIMATE,FY24Q4 at Dec-2025 rates not published; estimated as 22.61 x avg restatement ratio 1.0187 = 23.03
+FY25Q2,23.64,24.08,0.58,0.58,0.0,0.58,,18.09,0.46,,Q2 FY26 10-Q confirms $24.08B restated
+FY25Q3,24.28,24.74,0.64,0.66,0.0,0.66,,18.59,0.5,,
+FY25Q4,25.2,25.66,0.92,0.92,0.0,0.92,,19.2,0.61,,as-reported $25.20B revalued +$460M to $25.66B entering FY26 (Q4 FY25 call/release)
+FY26Q1,26.06,26.06,0.4,0.4,0.0,0.4,-14.9,,,,
+FY26Q2,27.1,27.1,1.04,1.04,0.48,0.56,-3.4,,,,incl. ~$480M Semrush (closed Apr-2026) per Q2 FY26 release/10-Q
+FY26Q3,27.5,27.5,0.4,0.4,0.0,0.4,-39.4,,,,Semrush contribution not quantified in Q3; assumed in base
+FY26Q4E,28.28,28.28,0.78,0.78,0.0,0.78,-15.2,,,IMPLIED from guidance,implied by FY26 target of 10.2 pct growth on $25.66B (= $28.28B)
+FY25 total,,,2.59,2.63,0.0,2.63,,,,Dec-2025-basis total includes estimated Q1,as-reported = Dec-2024 rates (11.5 pct growth)
+FY26 total (target),,,,2.62,0.48,2.14,-18.6,,,Q4 implied,10.2 pct target = $2.62B total net new; organic ex-Semrush
+"FY27 consensus (FactSet, pre-Q3)",,,,2.34,,2.34,9.3,,,given by integrator; VERIFY,consensus implies re-acceleration vs FY26 organic pace

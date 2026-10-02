@@ -1,0 +1,15 @@
+item,value,source,verified,notes
+"27-1024 Graphic Designers, national employment, May 2025",197830,https://www.bls.gov/oes/special-requests/oesm25nat.zip (national_M2025_dl.xlsx); page https://www.bls.gov/oes/2025/may/oes271024.htm redirects bots to /oes/home.htm,Y,"EMP_PRSE 2.4; A_MEDIAN 62,960; matches ws2 wide table"
+"27-1024 Graphic Designers, national employment, May 2024",214260,https://www.bls.gov/oes/special-requests/oesm24nat.zip (national_M2024_dl.xlsx); page https://www.bls.gov/oes/2024/may/oes271024.htm redirects bots,Y,"EMP_PRSE 1.8; A_MEDIAN 61,300"
+27-1024 change May-2024 to May-2025,-7.67%,derived,Y,"197,830/214,260-1"
+27-1011 Art Directors May 2025 / May 2024,"53,070 / 50,370",oesm25nat.zip / oesm24nat.zip,Y,+5.4%
+27-1014 Special Effects Artists & Animators May 2025 / May 2024,"19,970 / 21,280",oesm25nat.zip / oesm24nat.zip,Y,-6.2%
+27-4032 Film & Video Editors May 2025 / May 2024,"25,610 / 28,860",oesm25nat.zip / oesm24nat.zip,Y,-11.3%
+27-4021 Photographers May 2025 / May 2024,"51,760 / 51,230",oesm25nat.zip / oesm24nat.zip,Y,+1.0%
+Creative5 total May 2025 / May 2024,"348,240 / 366,000",sum of five SOC codes,Y,-4.85%
+11-2021 Marketing Managers May 2025 / May 2024,"395,240 / 384,980",oesm25nat.zip / oesm24nat.zip,Y,+2.7%
+13-1161 Market Research Analysts & Marketing Specialists May 2025 / May 2024,"899,580 / 861,140",oesm25nat.zip / oesm24nat.zip,Y,+4.5%
+OOH Graphic Designers: Number of Jobs 2025,"253,100",https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm,Y,"OOH uses Employment Projections base (incl. self-employed), not OEWS wage-and-salary"
+OOH Graphic Designers: Job Outlook 2025-35,"-2% (Decline); employment change -4,200",https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm,Y,'Employment of graphic designers is projected to decline 2 percent from 2025 to 2035.'
+OOH Graphic Designers: AI wording,"'Automated design tools, such as artificial intelligence (AI), are projected to make graphic designers more productive and reduce the need for these workers.'",https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm,Y,exact page wording; 24 words
+OOH Graphic Designers: openings,"about 16,000 openings per year, all from replacement",https://www.bls.gov/ooh/arts-and-design/graphic-designers.htm,Y,"median wage $62,960 (May 2025)"

@@ -1,0 +1,9 @@
+item,value,source,url,verified,notes
+Revenue per US creative worker index (FY19=100) FY25,240.7,ws2 rev_per_worker_index.csv,research/ws2_seat_compression/data/rev_per_worker_index.csv,Y,"Digital Media revenue (global) / creative5 OEWS employment (US); index only"
+Implied CAGR FY19-FY25 of DM revenue per creative worker,15.8%,ws2 findings.md,research/ws2_seat_compression/findings.md,Y,"(240.7/100)^(1/6)-1 = 15.8%"
+OEWS May 2025 national employment 27-1024 Graphic Designers,197830,BLS OEWS national file oesm25nat.zip,https://www.bls.gov/oes/special-requests/oesm25nat.zip,Y,"re-downloaded 2026-10-02; matches ws2 value 197,830. Note: /oes/2025/may/oes271024.htm now 301-redirects to /oes/home.htm"
+OEWS May 2024 national employment 27-1024 Graphic Designers,214260,BLS OEWS national file oesm24nat.zip,https://www.bls.gov/oes/special-requests/oesm24nat.zip,Y,"matches ws2 value 214,260"
+OEWS May 2023 national employment 27-1024 Graphic Designers,212720,BLS OEWS occupation page,https://www.bls.gov/oes/2023/may/oes271024.htm,Y,"matches ws2 value 212,720"
+OEWS May 2025 creative5 sum (27-1011+27-1014+27-1024+27-4021+27-4032),348240,BLS OEWS national file oesm25nat.zip,https://www.bls.gov/oes/special-requests/oesm25nat.zip,Y,"53,070+19,970+197,830+51,760+25,610 = 348,240; matches ws2"
+OEWS May 2024 creative5 sum,366000,BLS OEWS national file oesm24nat.zip,https://www.bls.gov/oes/special-requests/oesm24nat.zip,Y,"50,370+21,280+214,260+51,230+28,860 = 366,000; matches ws2"
+Adobe Digital Media revenue FY25 (USD bn),17.65,ws2 rev_per_worker_index.csv,research/ws2_seat_compression/data/rev_per_worker_index.csv,Y,"not re-verified here; FY25 10-K total revenue 23.77bn"
