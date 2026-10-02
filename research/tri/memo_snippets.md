@@ -11,3 +11,9 @@ We concede three things. US graphic-designer employment fell 7.7% in the year to
 ## Footnote-ready EPS math (for the appendix)
 
 34. $100M ARR × 45% × (1 − 0.18) ÷ 389M ≈ $0.095. Individual tier (base $6.25B) −10% = −$625M ≈ −$0.59 ($0.47 at 40% share, $0.71 at 60%). Content stack +12% on $5.41B = +$649M ≈ +$0.61. −1 pt subscription gross margin on ~$25.8B = −$258M operating income ≈ −$0.54. Concessions bear case −$865M ≈ −$0.82; AI-first adds +$400M ≈ +$0.38.
+
+## Footnote wording to carry the resolver caveats
+
+17. WPP/Hogarth via Google Think, 12/25: "2.5X increase in asset output, without increasing headcount or hours" (WPP internal data); WPP's 10/14/25 release says "2.5x acceleration in asset utilisation".
+29. Adobe PSLT Firefly indemnity 2024v1; partner-model outputs covered since 2026v1 on narrower terms; OpenAI Services Agreement 1/1/26 s.13; Canva ESA s.13.3 (Enterprise 100+ seats, cap max(3x fees, $3M)); Midjourney ToS 5/27/26 (no indemnity).
+41. Adobe Q2 FY26 prepared remarks p.12: Firefly Enterprise "generated assets grew more than 4X year over year" (not total Firefly).

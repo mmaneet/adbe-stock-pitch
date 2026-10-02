@@ -1,4 +1,47 @@
-# NEEDS_MANUAL: files the user should download (appended by subagents)
+# NEEDS_MANUAL: resolution status after the 2026-10-02 resolver pass (R1 Adobe, R2 competitors/pricing, R3 ad platforms/agencies/alt)
+
+Full tables: `needs_manual_resolution_R1.md`, `needs_manual_resolution_R2.md`, `needs_manual_resolution_R3.md`. The original request list is kept below for the record.
+
+| Original item | Status | Resolution (where / what) |
+|---|---|---|
+| Adobe "Firefly asset generations 4x" | FOUND, re-attributed | Q2 FY26 prepared-remarks script p.12 (6/11/26): "The number of generated assets grew more than 4X year over year" refers to Firefly ENTERPRISE (Services/Foundry/Brand Intelligence), not total Firefly. Not in the 8-K. Cite as "Firefly Enterprise generated assets >4x YoY". |
+| Adobe Q1/Q2 FY26 investor datasheets | FOUND | Parsed; financial rows only (no MAU/generation rows). |
+| Q1 FY26 AI-first ARR dollar figure | NOT DISCLOSED | Company said only "more than tripled" (implied >$375M); Firefly ending ARR >$250M (Q1), "approaching $300M" (Q2). No sell-side dollar figure found. |
+| helpx generative-credits FAQ | FOUND (native) / PARTIAL (partner models) | helpx reached: Firefly Image 5 = 10 credits, Image 4 Ultra = 20, standard = 1; video 20-100 credits/s; plan allowances 2,000/4,000/10,000/50,000. Partner-model costs (5-80 credits) from search snippets only. Table: c3_economics/data/generative_credits_table.csv. |
+| Adobe Firefly enterprise IP indemnity | FOUND (primary legal PDFs) | PSLT Firefly 2024v1 and PSLT Creative Partner Model 2026v1 fetched: partner-model outputs ARE indemnifiable since 2026v1 but on narrower terms. c3_economics/data/adobe_indemnity_wording.md. |
+| Adobe individual vs teams/enterprise CC split | NOT PUBLIC | Confirmed: no sell-side or press percentage exists. Anchors only (CC enterprise ARR $2.2B FY24; BP&C 28.5% of subscription revenue). c1_mix/data/cc_mix_third_party_estimates.csv. |
+| BLS OEWS HTML pages | HTML blocked; API confirms | BLS API v2 series OEUN000000000000027102401 returns 197,830 for May 2025 (matches zip). HTML page still needs a human screenshot. |
+| Google Trends re-export | DONE (weak test) | Same-day re-pull identical (likely cache); churn ratio unchanged (2026 YTD 4.06x). A different-day hand export is still advised before publication. |
+| Ramp vendor-level Adobe | NOT PUBLIC (confirmed) | All Adobe vendor slugs 404; only datum: Adobe #1 by new-customer count Sept 2024. |
+| Canva Q2 2026 investor update | PRESS-VERIFIED (primary not public) | Every figure confirmed in Startup Daily, B&T, Fortune, Forbes AU, SmartCompany except the "~6x" line (Sprinter only, unattributed: VERIFY). c3_economics/data/canva_q2_2026_verification.csv. |
+| Canva pricing / AI Pass / Canva Shield | FOUND | Pro US$144/yr; Business US$250/yr; Pro 200 Premium AI uses; AI Pass US$100/person/month; Shield: Enterprise 100+ seats, cap greater of 3x fees or US$3M (archive ESA: VERIFY current). Read via a public reader proxy (r.jina.ai) because canva.com blocks fetchers. |
+| OpenAI business terms / image limits | FOUND / PARTIAL | Services Agreement eff. 2026-01-01: IP indemnity s.13.1; 12-month cap excludes indemnities; output indemnity API + Enterprise with six exclusions. No numeric ChatGPT image caps are published. Read via reader proxy. |
+| Midjourney plans and ToS | FOUND | Zendesk public JSON API: Basic $10 (3.3 fast h), Standard $30 (15 h), Pro $60 (30 h), Mega $120 (60 h); ~1 GPU-min per image prompt; ToS eff. 2026-05-27: user indemnifies Midjourney. |
+| The Information Canva article | METADATA FOUND | "Canva Hits AI Speedbump on Costs, ChatGPT Competition", 2026-08-06, Weinberg & Palazzolo; body paywalled. |
+| McKinsey State of AI 2025 IP % | PARTIAL | 47% of organizations report at least one negative consequence; IP infringement among the three most cited; exact bar value is a graphic. |
+| Fiverr Business Trends Index | FOUND (wire copies) | Fall 2025: AI video creation freelancer demand +66% (6 months); 2026: Video & Animation +278%. |
+| DocuSign Q2 FY27 prepared remarks | FOUND (q4cdn) | DNR 103%; customers >$300k ACV +14% to nearly 1,300. |
+| Figma Q2 2026 letter / plan mix | FOUND docs; plan mix NOT DISCLOSED | Credit limits on all seats since mid-March 2026; >80% of >$10k customers use credits weekly; no revenue-by-plan. |
+| FactSet consensus | PRESS PROXIES | FY27 EPS $27.62-27.67; FY27 revenue ~$28.9B; 39 analysts, mean PT $276.40 (11 Buy/23 Hold/5 Sell); Morgan Stanley Underweight $240 (7/21/26, reiterated 9/11/26). FY27 net new ARR consensus NOT FOUND in open press. concessions/data/consensus_press_quotes.csv. |
+| Canva Inc. interview (Adams) | FOUND (free preview) | $4B ARR (2/24/26), 265M MAU, 31.2M paid; $500M >25-seat line via TechCrunch 2/18/26. |
+| WPP "2.5x asset output" | FOUND, wording caveat | Google Think article (Dec 2025, WPP internal data) says "asset output"; WPP's own 10/14/25 release says "2.5x acceleration in asset utilisation". No WPP investor document gives asset volumes; WPP Production LFL +1.3% H1 2026. |
+| Publicis sentences | FOUND (PDFs) | Q1 and Q2 2026: Intelligent Creativity "low single-digit organic growth"; FY2025: Q4 "fueled by Production". Marcel "almost a petabyte" is from the 1/25/2024 CoreAI release (date corrected). |
+| Meta Ad Library counts | NOT COLLECTED (ToS) | Substitute: Motion Creative Benchmarks 2026 (578,750 creatives, 6,015 Meta accounts): new creatives/week Micro 2.80 vs Enterprise 18.85; top quartile 4.83-54.64. Manual 20-brand protocol stands. |
+| Similarweb visits | PUBLISHED FIGURES ONLY (no scraping) | Similarweb blog Aug 2026: canva.com 863.7M worldwide visits (+7.9% YoY); adobe.com 433.9M (+41.5%); US canva 159.2M (+25.5%), adobe 98.7M (+33.4%). firefly/express/figma/midjourney not in any published ranking. |
+| Google Play milestones | PUBLISHED FIGURES ONLY (no scraping) | AppTweak CY2025 downloads (both stores, est.): Canva 79.2M (+0.3%), Adobe Express 24.7M (+70.7%); Acrobat Reader >500M installs (adobe.com); dated Play badges still manual. |
+| Meta Q1 2024, Alphabet Q3 2024 / Q1 2025 transcripts | FOUND (q4cdn) | Qualitative gen-AI creative statements only; counted series still starts Q2 2024. |
+| IPG historical production data | NOT FOUND | investors.interpublic.com 403. |
+
+## Still needs a human (consolidated)
+- Canva Q2 2026 investor letter itself (private); do not cite the "~6x" line as a letter quote. Confirm current Canva ESA cap and monthly Pro price.
+- BLS OEWS HTML page screenshot (numbers already verified from BLS zips and the API).
+- Google Trends hand export on a different day (sampling check).
+- Meta Ad Library 20-brand wave; Similarweb template for firefly/express/figma/midjourney; dated Google Play badges.
+- McKinsey Exhibit 3 bar value; ChatGPT numeric image caps (none published); FactSet FY27 net new ARR; Morgan Stanley analyst name on the note.
+
+---
+
+# Original request list (as appended by subagents during the research run)
 
 | workstream | file name | URL | why |
 |---|---|---|---|
