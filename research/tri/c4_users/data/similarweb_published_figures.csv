@@ -1,0 +1,14 @@
+month,domain,visits_m,publisher,url,verified,scope,notes
+2026-08,chatgpt.com,5600,"Similarweb blog (Top 100 worldwide, Aug 2026; published 2026-09-17)",https://www.similarweb.com/blog/research/market-research/most-visited-websites/,Y,worldwide,rank 5; MoM +3.45%; YoY -2.86%
+2026-08,gemini.google.com,2600,Similarweb blog (Top 100 worldwide),https://www.similarweb.com/blog/research/market-research/most-visited-websites/,Y,worldwide,rank 16; MoM -2.59%; YoY +148.22%
+2026-08,claude.ai,950.2,Similarweb blog (Top 100 worldwide),https://www.similarweb.com/blog/research/market-research/most-visited-websites/,Y,worldwide,rank 35; MoM -1.97%; YoY +561.58%
+2026-08,canva.com,863.7,Similarweb blog (Top 100 worldwide),https://www.similarweb.com/blog/research/market-research/most-visited-websites/,Y,worldwide,rank 36; MoM +5.06%; YoY +7.86%
+2026-08,adobe.com,433.9,Similarweb blog (Top 100 worldwide),https://www.similarweb.com/blog/research/market-research/most-visited-websites/,Y,worldwide,rank 73; MoM +14.13%; YoY +41.47%; listed in 'Highlights' as a riser
+2026-08,chatgpt.com,1000,"Similarweb blog (Top 100 USA, Aug 2026; published 2026-09-29)",https://www.similarweb.com/blog/research/market-research/most-visited-websites-usa/,Y,US,rank 10; MoM +4.14%; YoY +30.79%
+2026-08,gemini.google.com,299.9,Similarweb blog (Top 100 USA),https://www.similarweb.com/blog/research/market-research/most-visited-websites-usa/,Y,US,rank 27; MoM -4.22%; YoY +103.47%
+2026-08,claude.ai,219.5,Similarweb blog (Top 100 USA),https://www.similarweb.com/blog/research/market-research/most-visited-websites-usa/,Y,US,rank 37; MoM -5.58%; YoY +462.72%
+2026-08,canva.com,159.2,Similarweb blog (Top 100 USA),https://www.similarweb.com/blog/research/market-research/most-visited-websites-usa/,Y,US,rank 60; MoM +17.35%; YoY +25.45%; in 'Highlights' list
+2026-08,adobe.com,98.7,Similarweb blog (Top 100 USA),https://www.similarweb.com/blog/research/market-research/most-visited-websites-usa/,Y,US,rank 93; MoM +13.22%; YoY +33.40%
+2025-06 to 2026-05,chatgpt.com (share of gen-AI web traffic),,Similarweb blog AI Search Stats (published 2026-07-29),https://www.similarweb.com/blog/marketing/geo/gen-ai-stats/,Y,worldwide,share of generative-AI website visits fell from ~76% (Jun 2025) to ~53% (May 2026); Gemini <9% to ~27-28%; ChatGPT total visits roughly flat
+2026-02,figma.com,83.3,search-engine snippet of similarweb.com/website/figma.com (page NOT fetched per ToS rule),https://www.similarweb.com/website/figma.com/,N,worldwide,VERIFY by hand; snippet-only
+2026-08,firefly.adobe.com / express.adobe.com / midjourney.com,,none,,N,,UNAVAILABLE: not in any Similarweb-published Top-100 or gen-AI ranking found; midjourney.com snippet figures were internally inconsistent (9.9M/3mo vs 21.19M monthly) so not recorded; use manual template (similarweb_template.csv)

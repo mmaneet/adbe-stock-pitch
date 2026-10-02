@@ -1,0 +1,13 @@
+request,geo,term,n_months,corr,max_abs_diff,mean_abs_diff,identical,orig_2026_ytd_mean,resample_2026_ytd_mean,orig_2025_mean,resample_2025_mean,resample_time_utc,method
+R1,US,photoshop,93,1.0,0.0,0.0,Y,26.11,26.11,32.0,32.0,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+R1,US,adobe,93,1.0,0.0,0.0,Y,88.11,88.11,88.58,88.58,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+R1,US,cancel adobe,93,1.0,0.0,0.0,Y,1.44,1.44,1.0,1.0,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+R1,US,photoshop alternative,93,,0.0,0.0,Y,0.0,0.0,0.0,0.0,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+R1,US,adobe firefly,93,1.0,0.0,0.0,Y,1.89,1.89,1.25,1.25,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+R4,US,cancel adobe,93,1.0,0.0,0.0,Y,50.89,50.89,21.17,21.17,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+R4,US,photoshop alternative,93,1.0,0.0,0.0,Y,6.89,6.89,6.67,6.67,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+R4,US,adobe alternative,93,1.0,0.0,0.0,Y,14.67,14.67,11.67,11.67,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+R4,US,cancel adobe subscription,93,1.0,0.0,0.0,Y,41.0,41.0,12.5,12.5,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+R4,US,adobe firefly,93,0.9999,3.0,0.032,N,60.89,60.89,42.83,43.08,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+churn_intent_ratio_idx,US,original,93,,,,,4.062,,1.892,,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
+churn_intent_ratio_idx,US,resample,93,,,,,4.062,,1.892,,2026-10-02 18:23-18:24,"pytrends 4.9.2, fresh TrendReq, geo=US, timeframe 2019-01-01..2026-10-01, partial 2026-10 dropped"
